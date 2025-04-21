@@ -1,0 +1,2538 @@
+{
+    "chemical bonding": {
+      "ionic bonding": {
+          "concepts": {
+            "electron transfer": {
+              "difficulty": 3,
+              "learning_time": "short",
+              "prerequisites": [],
+              "related_concepts": ["cation formation", "anion formation"],
+              "learning_style": "visual",
+              "concept_category": "process",
+              "concept_properties": ["movement of electrons", "metal to nonmetal", "ion formation"],
+              "concept_applications": ["salt formation", "metal oxides"],
+              "concept_misconceptions": ["electrons are shared"],
+              "cognitive_load": "low",
+              "learning_objectives": ["define electron transfer", "explain ion formation"],
+              "prior_knowledge_assumptions": ["basic atomic structure"],
+              "question_type": ["definition", "explanation"],
+              "answer_length": "short",
+              "answer_format": "paragraph",
+              "answer_examples": ["Sodium losing an electron to form Na+"],
+              "source_citation": ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_(Zumdahl_DeCoste)/08%3A_General_Properties_of_Aqueous_Solutions/8.02%3A_Electrolytes_in_Aqueous_Solution"],
+              "source_type": "textbook"
+            },
+            "cation formation": {
+              "difficulty": 5,
+              "learning_time": "medium",
+              "prerequisites": ["atomic structure:subatomic particles", "electron transfer"],
+              "related_concepts": ["anion formation", "lattice energy"],
+              "learning_style": "logical",
+              "concept_category": "process",
+              "concept_properties": ["metal atom loses electrons", "positive ion formation", "stable configuration"],
+              "concept_applications": ["metal salts", "electroplating"],
+              "concept_misconceptions": ["cations are negatively charged"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["describe cation formation", "explain electron loss"],
+              "prior_knowledge_assumptions": ["electron transfer"],
+              "question_type": ["explanation", "application"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": ["Mg -> Mg2+ + 2e-"],
+              "source_citation": ["https://www.khanacademy.org/science/chemistry/chemical-bonds/ionic-bonds/a/ionic-bonding"],
+              "source_type": "website"
+            },
+            "anion formation": {
+              "difficulty": 5,
+              "learning_time": "medium",
+              "prerequisites": ["atomic structure:subatomic particles", "electron transfer"],
+              "related_concepts": ["cation formation", "lattice energy"],
+              "learning_style": "logical",
+              "concept_category": "process",
+              "concept_properties": ["nonmetal atom gains electrons", "negative ion formation", "stable configuration"],
+              "concept_applications": ["metal salts", "polyatomic ions"],
+              "concept_misconceptions": ["anions are positively charged"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["describe anion formation", "explain electron gain"],
+              "prior_knowledge_assumptions": ["electron transfer"],
+              "question_type": ["explanation", "application"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": ["Cl + e- -> Cl-"],
+              "source_citation": ["https://www.chemguide.co.uk/atoms/bonding/ionic.html"],
+              "source_type": "website"
+            },
+            "lattice energy": {
+              "difficulty": 8,
+              "learning_time": "long",
+              "prerequisites": ["cation formation", "anion formation"],
+              "related_concepts": [],
+              "learning_style": "logical",
+              "concept_category": "property",
+              "concept_properties": ["energy released", "gaseous ions to solid", "strength of ionic bonds"],
+              "concept_applications": ["predicting ionic compound stability"],
+              "concept_misconceptions": ["lattice energy is absorbed"],
+              "cognitive_load": "high",
+              "learning_objectives": ["define lattice energy", "explain its significance"],
+              "prior_knowledge_assumptions": ["ion formation"],
+              "question_type": ["definition", "explanation"],
+              "answer_length": "long",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://courses.lumenlearning.com/boundless-chemistry/chapter/lattice-energy/"],
+              "source_type": "website"
+            }
+          },
+          "questions": [
+            {
+              "template": "Explain the process of [concept].",
+              "concepts": ["electron transfer", "cation formation", "anion formation"],
+              "syntax_variation": "simple",
+              "question_type": ["explanation"]
+            },
+            {
+              "template": "How does [concept] contribute to ionic bond formation?",
+              "concepts": ["electron transfer", "lattice energy"],
+              "syntax_variation": "complex",
+              "lexical_variation": "high",
+              "question_type": ["explanation"]
+            },
+            {
+              "template": "What are the energy changes involved in [concept]?",
+              "concepts": ["electron transfer", "lattice energy"],
+              "semantic_variation": "analogy",
+              "question_type": ["explanation"]
+            },
+            {
+              "template": "What is the role of [concept] in ionic bond formation?",
+              "concepts": ["electron transfer", "cation formation", "anion formation", "lattice energy"],
+              "syntax_variation": "medium",
+              "question_type": ["explanation"]
+            }
+          ],
+          "answers": {
+            "electron transfer": [
+              "Electron transfer is the movement of electrons from a metal atom to a nonmetal atom.",
+              "Metals lose electrons, becoming positively charged ions (cations), and nonmetals gain electrons, becoming negatively charged ions (anions)."
+            ],
+            "cation formation": [
+              "Cation formation is the process where a metal atom loses electrons to form a positively charged ion.",
+              "Metals tend to lose electrons to achieve a stable electron configuration."
+            ],
+            "anion formation": [
+              "Anion formation is the process where a nonmetal atom gains electrons to form a negatively charged ion.",
+              "Nonmetals tend to gain electrons to achieve a stable electron configuration."
+            ],
+            "lattice energy": [
+              "Lattice energy is the energy released when gaseous ions combine to form a solid ionic compound.",
+              "It's a measure of the strength of the ionic bonds in a crystal lattice."
+            ]
+          }
+        },
+        "properties": {
+          "concepts": {
+            "high melting point": {
+              "difficulty": 6,
+              "learning_time": "short",
+              "prerequisites": ["lattice energy"],
+              "related_concepts": ["brittleness"],
+              "learning_style": "visual",
+              "concept_category": "property",
+              "concept_properties": ["strong electrostatic forces", "high energy required to break bonds"],
+              "concept_applications": ["industrial processes", "ceramic materials"],
+              "concept_misconceptions": ["ionic compounds melt easily"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["explain high melting point", "relate to bond strength"],
+              "prior_knowledge_assumptions": ["lattice energy"],
+              "question_type": ["explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://www.chemguide.co.uk/atoms/bonding/ionic.html"],
+              "source_type": "website"
+            },
+            "brittleness": {
+              "difficulty": 4,
+              "learning_time": "short",
+              "prerequisites": ["lattice energy"],
+              "related_concepts": ["high melting point"],
+              "learning_style": "visual",
+              "concept_category": "property",
+              "concept_properties": ["rigid lattice structure", "ion alignment", "fracture under stress"],
+              "concept_applications": ["ceramic materials", "construction"],
+              "concept_misconceptions": ["ionic compounds are flexible"],
+              "cognitive_load": "low",
+              "learning_objectives": ["explain brittleness", "relate to lattice structure"],
+              "prior_knowledge_assumptions": ["lattice energy"],
+              "question_type": ["explanation"],
+              "answer_length": "short",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://courses.lumenlearning.com/boundless-chemistry/chapter/ionic-compounds/"],
+              "source_type": "website"
+            },
+            "solubility": {
+              "difficulty": 6,
+              "learning_time": "medium",
+              "prerequisites": [],
+              "related_concepts": ["electrical conductivity"],
+              "learning_style": "logical",
+              "concept_category": "property",
+              "concept_properties": ["polar solvents", "ion-dipole interactions", "hydration"],
+              "concept_applications": ["chemical reactions in solution", "biological systems"],
+              "concept_misconceptions": ["ionic compounds dissolve in all solvents"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["explain solubility", "relate to solvent polarity"],
+              "prior_knowledge_assumptions": [],
+              "question_type": ["explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://www.khanacademy.org/science/chemistry/solutions-and-solubility/solutions-and-solubility/a/solubility"],
+              "source_type": "website"
+            },
+            "electrical conductivity": {
+              "difficulty": 6,
+              "learning_time": "medium",
+              "prerequisites": [],
+              "related_concepts": ["solubility"],
+              "learning_style": "logical",
+              "concept_category": "property",
+              "concept_properties": ["molten or dissolved state", "ion mobility", "charge carriers"],
+              "concept_applications": ["electrolytes", "batteries"],
+              "concept_misconceptions": ["ionic compounds conduct electricity in solid state"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["explain electrical conductivity", "relate to ion mobility"],
+              "prior_knowledge_assumptions": [],
+              "question_type": ["explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_(Zumdahl_DeCoste)/13%3A_Electrochemistry/13.02%3A_Galvanic_Cells"],
+              "source_type": "textbook"
+            }
+          },
+          "questions": [
+            {
+              "template": "Why do ionic compounds have a [concept]?",
+              "concepts": ["high melting point", "brittleness"],
+              "syntax_variation": "simple",
+              "question_type": ["explanation"]
+            },
+            {
+              "template": "Explain the [concept] of ionic compounds.",
+              "concepts": ["solubility", "electrical conductivity"],
+              "syntax_variation": "medium",
+              "lexical_variation": "medium",
+              "question_type": ["explanation"]
+            },
+            {
+              "template": "How does [concept] affect the behavior of ionic compounds?",
+              "concepts": ["solubility", "electrical conductivity"],
+              "semantic_variation": "example",
+              "question_type": ["explanation"]
+            }
+          ],
+          "answers": {
+            "high melting point": ["Ionic compounds have high melting points due to strong electrostatic forces between ions."],
+            "brittleness": ["Ionic compounds are brittle because of the rigid arrangement of ions in the crystal lattice."],
+            "solubility": ["Ionic compounds are generally soluble in polar solvents like water."],
+            "electrical conductivity": ["Ionic compounds conduct electricity when molten or dissolved in water, but not in the solid state."]
+          }
+        }
+      },
+      "covalent bonding": {
+        "concepts":{
+          "single covalent bond": {
+            "difficulty": 3,
+            "learning_time": "short",
+            "prerequisites": [],
+            "related_concepts": ["double covalent bond","triple covalent bond"],
+            "learning_style": "visual",
+            "concept_category": "bond",
+            "concept_properties": ["sharing of one electron pair", "sigma bond", "weakest covalent bond"],
+            "concept_applications": ["organic molecules", "diatomic molecules"],
+            "concept_misconceptions": ["single bonds are always weak"],
+            "cognitive_load": "low",
+            "learning_objectives": ["define single covalent bond", "describe its properties"],
+            "prior_knowledge_assumptions": ["basic atomic structure", "valence electrons"],
+            "question_type": ["definition","explanation"],
+            "answer_length": "short",
+            "answer_format": "paragraph",
+            "answer_examples": ["H-H in hydrogen gas", "C-H in methane"],
+            "source_citation": ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_(Zumdahl_DeCoste)/08%3A_General_Properties_of_Aqueous_Solutions/8.02%3A_Electrolytes_in_Aqueous_Solution"],
+            "source_type": "textbook"
+          },
+          "double covalent bond": {
+            "difficulty": 4,
+            "learning_time": "medium",
+            "prerequisites": ["single covalent bond"],
+            "related_concepts": ["triple covalent bond"],
+            "learning_style": "visual",
+            "concept_category": "bond",
+            "concept_properties": ["sharing of two electron pairs", "sigma and pi bonds", "stronger than single bond"],
+            "concept_applications": ["alkenes", "carbon dioxide"],
+            "concept_misconceptions": ["double bonds are twice as strong as single bonds"],
+            "cognitive_load": "medium",
+            "learning_objectives": ["define double covalent bond", "describe its properties"],
+            "prior_knowledge_assumptions": ["single covalent bond"],
+            "question_type": ["definition","explanation"],
+            "answer_length": "medium",
+            "answer_format": "paragraph",
+            "answer_examples": ["O=O in oxygen gas", "C=C in ethene"],
+            "source_citation": ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_(Zumdahl_DeCoste)/08%3A_General_Properties_of_Aqueous_Solutions/8.02%3A_Electrolytes_in_Aqueous_Solution"],
+            "source_type": "textbook"
+          },
+          "triple covalent bond": {
+            "difficulty": 5,
+            "learning_time": "medium",
+            "prerequisites": ["double covalent bond"],
+            "related_concepts": [],
+            "learning_style": "visual",
+            "concept_category": "bond",
+            "concept_properties": ["sharing of three electron pairs", "sigma and two pi bonds", "strongest covalent bond"],
+            "concept_applications": ["alkynes", "nitrogen gas"],
+            "concept_misconceptions": ["triple bonds are unstable"],
+            "cognitive_load": "medium",
+            "learning_objectives": ["define triple covalent bond", "describe its properties"],
+            "prior_knowledge_assumptions": ["double covalent bond"],
+            "question_type": ["definition","explanation"],
+            "answer_length": "medium",
+            "answer_format": "paragraph",
+            "answer_examples": ["N≡N in nitrogen gas", "C≡C in ethyne"],
+            "source_citation": ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_(Zumdahl_DeCoste)/08%3A_General_Properties_of_Aqueous_Solutions/8.02%3A_Electrolytes_in_Aqueous_Solution"],
+            "source_type": "textbook"
+          },
+          "polar covalent bond": {
+            "difficulty": 4,
+            "learning_time": "medium",
+            "prerequisites": ["single covalent bond"],
+            "related_concepts": ["nonpolar covalent bond"],
+            "learning_style": "logical",
+            "concept_category": "bond",
+            "concept_properties": ["unequal sharing of electrons", "dipole moment", "electronegativity difference"],
+            "concept_applications": ["water", "hydrogen chloride"],
+            "concept_misconceptions": ["polar bonds are ionic"],
+            "cognitive_load": "medium",
+            "learning_objectives": ["define polar covalent bond", "describe its properties"],
+            "prior_knowledge_assumptions": ["single covalent bond", "electronegativity"],
+            "question_type": ["definition","explanation"],
+            "answer_length": "medium",
+            "answer_format": "paragraph",
+            "answer_examples": ["H-Cl in hydrogen chloride", "H-O in water"],
+            "source_citation": ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_(Zumdahl_DeCoste)/08%3A_General_Properties_of_Aqueous_Solutions/8.02%3A_Electrolytes_in_Aqueous_Solution"],
+            "source_type": "textbook"
+          },
+          "nonpolar covalent bond": {
+            "difficulty": 3,
+            "learning_time": "short",
+            "prerequisites": ["single covalent bond"],
+            "related_concepts": ["polar covalent bond"],
+            "learning_style": "logical",
+            "concept_category": "bond",
+            "concept_properties": ["equal sharing of electrons", "no dipole moment", "negligible electronegativity difference"],
+            "concept_applications": ["diatomic molecules", "hydrocarbons"],
+            "concept_misconceptions": ["nonpolar bonds are always weak"],
+            "cognitive_load": "low",
+            "learning_objectives": ["define nonpolar covalent bond", "describe its properties"],
+            "prior_knowledge_assumptions": ["single covalent bond", "electronegativity"],
+            "question_type": ["definition","explanation"],
+            "answer_length": "short",
+            "answer_format": "paragraph",
+            "answer_examples": ["H-H in hydrogen gas", "C-H in methane"],
+            "source_citation": ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_(Zumdahl_DeCoste)/08%3A_General_Properties_of_Aqueous_Solutions/8.02%3A_Electrolytes_in_Aqueous_Solution"],
+            "source_type": "textbook"
+          }
+        },
+        "questions": [
+          {
+            "template": "Explain the characteristics of [concept1], [concept2], and [concept3].",
+            "concepts": ["single covalent bond","double covalent bond","triple covalent bond"],
+            "syntax_variation": "simple",
+            "question_type": ["explanation"]
+          },
+          {
+            "template": "Compare and contrast the following concepts.",
+            "concepts": ["polar covalent bond","nonpolar covalent bond"],
+            "syntax_variation": "medium",
+            "question_type": ["comparison"]
+          },
+          {
+            "template": "How do [concept1] and [concept2] affect the properties of a molecule?",
+            "concepts": ["polar covalent bond","nonpolar covalent bond"],
+            "syntax_variation": "complex",
+            "question_type": ["explanation"]
+          }
+        ],
+        "answers": {
+          "single covalent bond": ["A single covalent bond is formed by the sharing of one pair of electrons between two atoms."],
+          "double covalent bond": ["A double covalent bond is formed by the sharing of two pairs of electrons between two atoms."],
+          "triple covalent bond": ["A triple covalent bond is formed by the sharing of three pairs of electrons between two atoms."],
+          "polar covalent bond": ["A polar covalent bond is formed by the unequal sharing of electrons between two atoms due to a difference in electronegativity."],
+          "nonpolar covalent bond": ["A nonpolar covalent bond is formed by the equal sharing of electrons between two atoms."]
+        },
+        "metallic bonding": {
+          "concepts": {
+            "delocalized electrons": {
+              "difficulty": 4,
+              "learning_time": "medium",
+              "prerequisites": [],
+              "related_concepts": ["sea of electrons", "metallic lattice"],
+              "learning_style": "visual",
+              "concept_category": "structure",
+              "concept_properties": ["free-moving electrons", "electron cloud", "shared electrons"],
+              "concept_applications": ["electrical conductivity", "thermal conductivity"],
+              "concept_misconceptions": ["electrons are localized"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["define delocalized electrons", "explain their role in bonding"],
+              "prior_knowledge_assumptions": ["basic atomic structure"],
+              "question_type": ["definition", "explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_(Zumdahl_DeCoste)/08%3A_General_Properties_of_Aqueous_Solutions/8.02%3A_Electrolytes_in_Aqueous_Solution"],
+              "source_type": "textbook"
+            },
+            "sea of electrons": {
+              "difficulty": 4,
+              "learning_time": "medium",
+              "prerequisites": ["delocalized electrons"],
+              "related_concepts": ["metallic lattice"],
+              "learning_style": "visual",
+              "concept_category": "model",
+              "concept_properties": ["positive metal ions", "electron cloud", "strong attraction"],
+              "concept_applications": ["malleability", "ductility"],
+              "concept_misconceptions": ["electrons are static"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["describe the sea of electrons model", "explain its significance"],
+              "prior_knowledge_assumptions": ["delocalized electrons"],
+              "question_type": ["explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://www.khanacademy.org/science/chemistry/chemical-bonds/metallic-bonding/a/metallic-bonding"],
+              "source_type": "website"
+            },
+            "metallic lattice": {
+              "difficulty": 5,
+              "learning_time": "medium",
+              "prerequisites": ["sea of electrons"],
+              "related_concepts": [],
+              "learning_style": "visual",
+              "concept_category": "structure",
+              "concept_properties": ["regular arrangement of metal ions", "close packing", "strong metallic bonds"],
+              "concept_applications": ["metal alloys", "structural materials"],
+              "concept_misconceptions": ["metallic lattices are irregular"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["describe the metallic lattice", "explain its properties"],
+              "prior_knowledge_assumptions": ["sea of electrons"],
+              "question_type": ["explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://www.chemguide.co.uk/atoms/bonding/metallic.html"],
+              "source_type": "website"
+            }
+          },
+          "questions": [
+            {
+              "template": "Explain the concept of [concept].",
+              "concepts": ["delocalized electrons", "sea of electrons", "metallic lattice"],
+              "syntax_variation": "simple",
+              "question_type": ["explanation"]
+            },
+            {
+              "template": "How does [concept] contribute to the properties of metals?",
+              "concepts": ["delocalized electrons", "sea of electrons"],
+              "syntax_variation": "medium",
+              "question_type": ["explanation"]
+            },
+            {
+              "template": "Describe the structure of a [concept].",
+              "concepts": ["metallic lattice"],
+              "syntax_variation": "simple",
+              "question_type": ["explanation"]
+            }
+          ],
+          "answers": {
+            "delocalized electrons": ["Delocalized electrons are electrons that are not bound to a specific atom and can move freely throughout the metal structure."],
+            "sea of electrons": ["The sea of electrons model describes the metallic bond as positive metal ions surrounded by a mobile 'sea' of delocalized electrons."],
+            "metallic lattice": ["A metallic lattice is the regular, repeating arrangement of metal ions in a solid metal, held together by the strong attraction to the delocalized electrons."]
+          }
+        },
+        "intermolecular forces": {
+          "concepts": {
+            "van der Waals forces": {
+              "difficulty": 4,
+              "learning_time": "medium",
+              "prerequisites": [],
+              "related_concepts": ["London dispersion forces", "dipole-dipole forces"],
+              "learning_style": "logical",
+              "concept_category": "force",
+              "concept_properties": ["weak attractive forces", "temporary dipoles", "distance-dependent"],
+              "concept_applications": ["liquids and solids", "boiling points"],
+              "concept_misconceptions": ["van der Waals forces are strong"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["define van der Waals forces", "explain their origin"],
+              "prior_knowledge_assumptions": ["basic atomic structure"],
+              "question_type": ["definition", "explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_(Zumdahl_DeCoste)/11%3A_Liquids_and_Intermolecular_Forces/11.02%3A_Intermolecular_Forces"],
+              "source_type": "textbook"
+            },
+            "London dispersion forces": {
+              "difficulty": 4,
+              "learning_time": "medium",
+              "prerequisites": ["van der Waals forces"],
+              "related_concepts": ["dipole-dipole forces", "hydrogen bonding"],
+              "learning_style": "logical",
+              "concept_category": "force",
+              "concept_properties": ["instantaneous dipoles", "induced dipoles", "present in all molecules"],
+              "concept_applications": ["liquefaction of gases", "boiling points"],
+              "concept_misconceptions": ["London forces are only in nonpolar molecules"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["define London dispersion forces", "explain their origin"],
+              "prior_knowledge_assumptions": ["van der Waals forces"],
+              "question_type": ["definition", "explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://www.khanacademy.org/science/chemistry/states-of-matter-and-intermolecular-forces/intermolecular-forces/a/london-dispersion-forces"],
+              "source_type": "website"
+            },
+            "dipole-dipole forces": {
+              "difficulty": 5,
+              "learning_time": "medium",
+              "prerequisites": ["van der Waals forces", "polar covalent bond"],
+              "related_concepts": ["hydrogen bonding"],
+              "learning_style": "logical",
+              "concept_category": "force",
+              "concept_properties": ["permanent dipoles", "attraction between opposite charges", "stronger than London forces"],
+              "concept_applications": ["boiling points of polar molecules", "solubility"],
+              "concept_misconceptions": ["dipole-dipole forces are as strong as covalent bonds"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["define dipole-dipole forces", "explain their origin"],
+              "prior_knowledge_assumptions": ["van der Waals forces", "polar covalent bonds"],
+              "question_type": ["definition", "explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://www.chemguide.co.uk/atoms/bonding/vdw.html"],
+              "source_type": "website"
+            },
+            "hydrogen bonding": {
+              "difficulty": 6,
+              "learning_time": "medium",
+              "prerequisites": ["dipole-dipole forces"],
+              "related_concepts": [],
+              "learning_style": "logical",
+              "concept_category": "force",
+              "concept_properties": ["strong dipole-dipole force", "H bonded to N, O, or F", "high boiling points"],
+              "concept_applications": ["water's properties", "biological molecules"],
+              "concept_misconceptions": ["hydrogen bonds are covalent bonds"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["define hydrogen bonding", "explain its significance"],
+              "prior_knowledge_assumptions": ["dipole-dipole forces"],
+              "question_type": ["definition", "explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_(Zumdahl_DeCoste)/11%3A_Liquids_and_Intermolecular_Forces/11.02%3A_Intermolecular_Forces"],
+              "source_type": "textbook"
+            }
+          },
+          "questions": [
+            {
+              "template": "Explain the nature of [concept].",
+              "concepts": ["van der Waals forces", "London dispersion forces", "dipole-dipole forces", "hydrogen bonding"],
+              "syntax_variation": "simple",
+              "question_type": ["explanation"]
+            },
+            {
+              "template": "How does [concept] affect the physical properties of substances?",
+              "concepts": ["London dispersion forces", "dipole-dipole forces", "hydrogen bonding"],
+              "syntax_variation": "medium",
+              "question_type": ["explanation"]
+            },
+            {
+              "template": "Compare and contrast the following concepts",
+              "concepts": ["London dispersion forces", "dipole-dipole forces", "hydrogen bonding"],
+              "syntax_variation": "medium",
+              "question_type": ["comparison"]
+            }
+          ],
+          "answers": {
+            "van der Waals forces": ["Van der Waals forces are weak intermolecular forces that arise from temporary dipoles in molecules."],
+            "London dispersion forces": ["London dispersion forces are temporary attractive forces caused by instantaneous dipoles in molecules."],
+            "dipole-dipole forces": ["Dipole-dipole forces are attractive forces between polar molecules due to their permanent dipoles."],
+            "hydrogen bonding": ["Hydrogen bonding is a strong dipole-dipole force between a hydrogen atom bonded to N, O, or F and another N, O, or F atom."]
+          }
+        },
+        "molecular geometry": {
+          "concepts": {
+            "VSEPR theory": {
+              "difficulty": 6,
+              "learning_time": "medium",
+              "prerequisites": ["covalent bonding"],
+              "related_concepts": ["electron domains", "bond angles"],
+              "learning_style": "visual",
+              "concept_category": "theory",
+              "concept_properties": ["electron pair repulsion", "minimizing repulsion", "predicting shapes"],
+              "concept_applications": ["predicting molecular shapes", "understanding polarity"],
+              "concept_misconceptions": ["VSEPR predicts bond lengths"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["explain VSEPR theory", "predict molecular shapes"],
+              "prior_knowledge_assumptions": ["covalent bonding", "Lewis structures"],
+              "question_type": ["explanation", "application"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_(Zumdahl_DeCoste)/09%3A_Covalent_Bonding_and_Molecular_Structure/9.08%3A_The_VSEPR_Model"],
+              "source_type": "textbook"
+            },
+            "electron domains": {
+              "difficulty": 5,
+              "learning_time": "medium",
+              "prerequisites": ["VSEPR theory"],
+              "related_concepts": ["bond angles"],
+              "learning_style": "visual",
+              "concept_category": "structure",
+              "concept_properties": ["bonding pairs", "lone pairs", "regions of electron density"],
+              "concept_applications": ["determining molecular geometry"],
+              "concept_misconceptions": ["lone pairs don't affect shape"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["define electron domains", "relate to molecular shape"],
+              "prior_knowledge_assumptions": ["VSEPR theory"],
+              "question_type": ["definition", "explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://www.khanacademy.org/science/chemistry/chemical-bonds/vsepr-theory/a/vsepr-theory"],
+              "source_type": "website"
+            },
+            "bond angles": {
+              "difficulty": 6,
+              "learning_time": "medium",
+              "prerequisites": ["VSEPR theory", "electron domains"],
+              "related_concepts": [],
+              "learning_style": "visual",
+              "concept_category": "property",
+              "concept_properties": ["angles between bonds", "influence of lone pairs", "ideal vs. actual angles"],
+              "concept_applications": ["predicting molecular shape", "understanding molecular properties"],
+              "concept_misconceptions": ["bond angles are always ideal"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["define bond angles", "explain their variation"],
+              "prior_knowledge_assumptions": ["VSEPR theory", "electron domains"],
+              "question_type": ["definition", "explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://www.chemguide.co.uk/basicorg/bonding/shapes.html"],
+              "source_type": "website"
+            },
+            "molecular shapes": {
+              "difficulty": 5,
+              "learning_time": "medium",
+              "prerequisites": ["VSEPR theory", "electron domains", "bond angles"],
+              "related_concepts": [],
+              "learning_style": "visual",
+              "concept_category": "property",
+              "concept_properties": ["linear", "trigonal planar", "tetrahedral", "bent", "trigonal pyramidal"],
+              "concept_applications": ["predicting polarity", "understanding reactivity"],
+              "concept_misconceptions": ["all molecules are flat"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["identify molecular shapes", "relate to electron domains"],
+              "prior_knowledge_assumptions": ["VSEPR theory", "electron domains", "bond angles"],
+              "question_type": ["identification", "explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_(Zumdahl_DeCoste)/09%3A_Covalent_Bonding_and_Molecular_Structure/9.09%3A_Molecular_Structure_and_Polarity"],
+              "source_type": "textbook"
+            }
+          },
+          "questions": [
+            {
+              "template": "Explain the principles of [concept].",
+              "concepts": ["VSEPR theory"],
+              "syntax_variation": "simple",
+              "question_type": ["explanation"]
+            },
+            {
+              "template": "How do [concept] influence molecular shape?",
+              "concepts": ["electron domains", "bond angles"],
+              "syntax_variation": "medium",
+              "question_type": ["explanation"]
+            },
+            {
+              "template": "Describe the [concept] of a molecule and its impact on properties.",
+              "concepts": ["molecular shapes"],
+              "syntax_variation": "medium",
+              "question_type": ["explanation"]
+            },
+            {
+              "template": "Compare and contrast the following concepts.",
+              "concepts": ["electron domains", "molecular shapes"],
+              "syntax_variation": "complex",
+              "question_type": ["explanation"]
+            }
+          ],
+          "answers": {
+            "VSEPR theory": ["VSEPR theory predicts molecular shapes based on the repulsion of electron pairs around a central atom."],
+            "electron domains": ["Electron domains are regions of electron density, including bonding and lone pairs, around a central atom."],
+            "bond angles": ["Bond angles are the angles between bonds in a molecule, influenced by electron domain repulsion."],
+            "molecular shapes": ["Molecular shapes are the three-dimensional arrangements of atoms in a molecule, determined by electron domains and bond angles."]
+          }
+        }
+      },
+        "organic chemistry": {
+          "concepts": {
+            "alkanes": {
+              "difficulty": 4,
+              "learning_time": "medium",
+              "prerequisites": ["covalent bonding", "molecular geometry"],
+              "related_concepts": ["alkenes", "alkynes"],
+              "learning_style": "visual",
+              "concept_category": "compound class",
+              "concept_properties": ["saturated hydrocarbons", "single bonds", "general formula CnH2n+2"],
+              "concept_applications": ["fuels", "solvents"],
+              "concept_misconceptions": ["alkanes are always straight chains"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["define alkanes", "describe their properties"],
+              "prior_knowledge_assumptions": ["covalent bonding", "basic hydrocarbon concepts"],
+              "question_type": ["definition", "explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": ["methane", "ethane", "propane"],
+              "source_citation": ["https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Map%3A_Organic_Chemistry_(Smith)/03%3A_Structure_and_Stereochemistry_of_Alkanes"],
+              "source_type": "textbook"
+            },
+            "alkenes": {
+              "difficulty": 5,
+              "learning_time": "medium",
+              "prerequisites": ["alkanes"],
+              "related_concepts": ["alkynes"],
+              "learning_style": "visual",
+              "concept_category": "compound class",
+              "concept_properties": ["unsaturated hydrocarbons", "double bonds", "general formula CnH2n"],
+              "concept_applications": ["plastics", "synthetic rubber"],
+              "concept_misconceptions": ["alkenes are less reactive than alkanes"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["define alkenes", "describe their properties"],
+              "prior_knowledge_assumptions": ["alkanes"],
+              "question_type": ["definition", "explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": ["ethene", "propene"],
+              "source_citation": ["https://www.khanacademy.org/science/organic-chemistry/alkenes-and-alkynes/alkenes/a/alkenes-structure-and-properties"],
+              "source_type": "website"
+            },
+            "alkynes": {
+              "difficulty": 6,
+              "learning_time": "medium",
+              "prerequisites": ["alkenes"],
+              "related_concepts": [],
+              "learning_style": "visual",
+              "concept_category": "compound class",
+              "concept_properties": ["unsaturated hydrocarbons", "triple bonds", "general formula CnH2n-2"],
+              "concept_applications": ["welding", "organic synthesis"],
+              "concept_misconceptions": ["alkynes are rare in nature"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["define alkynes", "describe their properties"],
+              "prior_knowledge_assumptions": ["alkenes"],
+              "question_type": ["definition", "explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": ["ethyne (acetylene)", "propyne"],
+              "source_citation": ["https://www.chemguide.co.uk/organicprops/alkynes/background.html"],
+              "source_type": "website"
+            },
+            "functional groups": {
+              "difficulty": 7,
+              "learning_time": "long",
+              "prerequisites": ["alkanes", "alkenes", "alkynes"],
+              "related_concepts": ["isomerism"],
+              "learning_style": "logical",
+              "concept_category": "structure",
+              "concept_properties": ["specific atom arrangements", "determine chemical properties", "examples: alcohols, aldehydes, ketones"],
+              "concept_applications": ["predicting reactivity", "naming organic compounds"],
+              "concept_misconceptions": ["functional groups don't affect properties"],
+              "cognitive_load": "high",
+              "learning_objectives": ["define functional groups", "identify common groups"],
+              "prior_knowledge_assumptions": ["alkanes", "alkenes", "alkynes"],
+              "question_type": ["definition", "identification"],
+              "answer_length": "long",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Map%3A_Organic_Chemistry_(Smith)/02%3A_Structure_and_Properties_of_Organic_Molecules/2.07%3A_Functional_Groups"],
+              "source_type": "textbook"
+            },
+            "isomerism": {
+              "difficulty": 7,
+              "learning_time": "long",
+              "prerequisites": ["functional groups"],
+              "related_concepts": [],
+              "learning_style": "visual",
+              "concept_category": "property",
+              "concept_properties": ["same molecular formula", "different structural formulas", "different properties"],
+              "concept_applications": ["drug design", "polymer chemistry"],
+              "concept_misconceptions": ["isomers have identical properties"],
+              "cognitive_load": "high",
+              "learning_objectives": ["define isomerism", "identify types of isomers"],
+              "prior_knowledge_assumptions": ["functional groups"],
+              "question_type": ["definition", "identification"],
+              "answer_length": "long",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://www.khanacademy.org/science/organic-chemistry/alkanes-cycloalkanes/isomers/a/structural-isomers"],
+              "source_type": "website"
+            }
+          },
+          "questions": [
+            {
+              "template": "Describe the characteristics of [concept].",
+              "concepts": ["alkanes", "alkenes", "alkynes"],
+              "syntax_variation": "simple",
+              "question_type": ["explanation"]
+            },
+            {
+              "template": "What is the importance of [concept] in organic chemistry?",
+              "concepts": ["functional groups"],
+              "syntax_variation": "medium",
+              "question_type": ["explanation"]
+            },
+            {
+              "template": "Explain the concept of [concept] and its types.",
+              "concepts": ["isomerism"],
+              "syntax_variation": "medium",
+              "question_type": ["explanation"]
+            },
+            {
+              "template": "Compare and contrast the following concepts.",
+              "concepts": ["alkanes","alkenes", "alkynes"],
+              "syntax_variation": "complex",
+              "question_type": ["comparison"]
+            }
+          ],
+          "answers": {
+            "alkanes": ["Alkanes are saturated hydrocarbons with single bonds and the general formula CnH2n+2."],
+            "alkenes": ["Alkenes are unsaturated hydrocarbons with at least one double bond and the general formula CnH2n."],
+            "alkynes": ["Alkynes are unsaturated hydrocarbons with at least one triple bond and the general formula CnH2n-2."],
+            "functional groups": ["Functional groups are specific arrangements of atoms in organic molecules that determine their chemical properties."],
+            "isomerism": ["Isomerism is the phenomenon where molecules have the same molecular formula but different structural formulas and properties."]
+        }
+     },
+     "acids and bases": {
+          "concepts": {
+            "Arrhenius definition": {
+              "difficulty": 4,
+              "learning_time": "medium",
+              "prerequisites": [],
+              "related_concepts": ["Brønsted-Lowry definition", "Lewis definition"],
+              "learning_style": "logical",
+              "concept_category": "definition",
+              "concept_properties": ["H+ in water", "OH- in water", "limited to aqueous solutions"],
+              "concept_applications": ["simple acid-base reactions"],
+              "concept_misconceptions": ["all acids release H+ directly"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["define Arrhenius acids and bases", "explain their limitations"],
+              "prior_knowledge_assumptions": ["basic chemical reactions"],
+              "question_type": ["definition", "explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_(Zumdahl_DeCoste)/14%3A_Acids_and_Bases/14.02%3A_Arrhenius_Acids_and_Bases"],
+              "source_type": "textbook"
+            },
+            "Brønsted-Lowry definition": {
+              "difficulty": 5,
+              "learning_time": "medium",
+              "prerequisites": ["Arrhenius definition"],
+              "related_concepts": ["Lewis definition"],
+              "learning_style": "logical",
+              "concept_category": "definition",
+              "concept_properties": ["proton donors", "proton acceptors", "not limited to aqueous solutions"],
+              "concept_applications": ["acid-base reactions in various solvents"],
+              "concept_misconceptions": ["Brønsted-Lowry acids must release H+ directly"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["define Brønsted-Lowry acids and bases", "explain their advantages"],
+              "prior_knowledge_assumptions": ["Arrhenius definition"],
+              "question_type": ["definition", "explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://www.khanacademy.org/science/chemistry/acids-and-bases/bronsted-lowry-theory/a/bronsted-lowry-acids-and-bases"],
+              "source_type": "website"
+            },
+            "Lewis definition": {
+              "difficulty": 6,
+              "learning_time": "medium",
+              "prerequisites": ["Brønsted-Lowry definition"],
+              "related_concepts": [],
+              "learning_style": "logical",
+              "concept_category": "definition",
+              "concept_properties": ["electron pair acceptors", "electron pair donors", "broadest definition"],
+              "concept_applications": ["reactions involving metal ions"],
+              "concept_misconceptions": ["Lewis acids must have H+"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["define Lewis acids and bases", "explain their scope"],
+              "prior_knowledge_assumptions": ["Brønsted-Lowry definition"],
+              "question_type": ["definition", "explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://www.chemguide.co.uk/inorganic/acidity/theories.html"],
+              "source_type": "website"
+            },
+            "pH scale": {
+              "difficulty": 5,
+              "learning_time": "medium",
+              "prerequisites": [],
+              "related_concepts": ["acid strength", "base strength"],
+              "learning_style": "logical",
+              "concept_category": "measurement",
+              "concept_properties": ["logarithmic scale", "acidity and basicity", "pH = -log[H+]"],
+              "concept_applications": ["measuring acidity", "controlling pH in reactions"],
+              "concept_misconceptions": ["pH 7 is always neutral"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["define pH scale", "explain its significance"],
+              "prior_knowledge_assumptions": ["basic math"],
+              "question_type": ["definition", "explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_(Zumdahl_DeCoste)/14%3A_Acids_and_Bases/14.04%3A_The_pH_Scale"],
+              "source_type": "textbook"
+            },
+            "acid and base strength": {
+              "difficulty": 6,
+              "learning_time": "medium",
+              "prerequisites": ["pH scale"],
+              "related_concepts": ["equilibrium"],
+              "learning_style": "logical",
+              "concept_category": "property",
+              "concept_properties": ["strong vs. weak", "ionization constants (Ka, Kb)", "equilibrium constants"],
+              "concept_applications": ["predicting reaction outcomes"],
+              "concept_misconceptions": ["strong acids have high pH"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["define acid and base strength", "explain ionization constants"],
+              "prior_knowledge_assumptions": ["pH scale", "equilibrium"],
+              "question_type": ["definition", "explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://www.khanacademy.org/science/chemistry/acids-and-bases/acids-and-bases-and-equilibrium/a/acid-and-base-strength"],
+              "source_type": "website"
+            }
+          },
+          "questions": [
+            {
+              "template": "Explain the [concept] of acids and bases.",
+              "concepts": ["Arrhenius definition", "Brønsted-Lowry definition", "Lewis definition"],
+              "syntax_variation": "simple",
+              "question_type": ["explanation"]
+            },
+            {
+              "template": "What is the significance of the [concept]?",
+              "concepts": ["pH scale"],
+              "syntax_variation": "medium",
+              "question_type": ["explanation"]
+            },
+            {
+              "template": "How is [concept] determined?",
+              "concepts": ["acid and base strength"],
+              "syntax_variation": "medium",
+              "question_type": ["explanation"]
+            },
+            {
+              "template": "Compare and contrast the following concepts.",
+              "concepts": ["Arrhenius definition", "Brønsted-Lowry definition", "Lewis definition"],
+              "syntax_variation": "complex",
+              "question_type": ["comparison"]
+            }
+          ],
+          "answers": {
+            "Arrhenius definition": ["The Arrhenius definition defines acids as substances that produce H+ ions in water and bases as substances that produce OH- ions in water."],
+            "Brønsted-Lowry definition": ["The Brønsted-Lowry definition defines acids as proton (H+) donors and bases as proton acceptors."],
+            "Lewis definition": ["The Lewis definition defines acids as electron pair acceptors and bases as electron pair donors."],
+            "pH scale": ["The pH scale is a logarithmic scale used to measure the acidity or basicity of a solution."],
+            "acid and base strength": ["Acid and base strength refers to the degree to which an acid or base ionizes in solution, often quantified using ionization constants (Ka, Kb)."]
+        }
+    },
+    "chemical equilibrium": {
+          "concepts": {
+            "equilibrium constant (K)": {
+              "difficulty": 6,
+              "learning_time": "medium",
+              "prerequisites": [],
+              "related_concepts": ["reaction quotient (Q)", "Le Chatelier's principle"],
+              "learning_style": "logical",
+              "concept_category": "measurement",
+              "concept_properties": ["ratio of products to reactants", "temperature-dependent", "indicates extent of reaction"],
+              "concept_applications": ["predicting reaction direction", "calculating equilibrium concentrations"],
+              "concept_misconceptions": ["K changes with concentration"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["define equilibrium constant", "calculate K"],
+              "prior_knowledge_assumptions": ["basic stoichiometry"],
+              "question_type": ["definition", "calculation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_(Zumdahl_DeCoste)/13%3A_Chemical_Equilibrium/13.02%3A_The_Equilibrium_Constant"],
+              "source_type": "textbook"
+            },
+            "reaction quotient (Q)": {
+              "difficulty": 6,
+              "learning_time": "medium",
+              "prerequisites": ["equilibrium constant (K)"],
+              "related_concepts": ["Le Chatelier's principle"],
+              "learning_style": "logical",
+              "concept_category": "measurement",
+              "concept_properties": ["ratio of products to reactants at any point", "compared to K", "predicts reaction direction"],
+              "concept_applications": ["determining if a system is at equilibrium"],
+              "concept_misconceptions": ["Q is always equal to K"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["define reaction quotient", "compare Q and K"],
+              "prior_knowledge_assumptions": ["equilibrium constant"],
+              "question_type": ["definition", "comparison"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://www.khanacademy.org/science/chemistry/chemical-equilibrium/introduction-chemical-equilibrium/a/reaction-quotient-q"],
+              "source_type": "website"
+            },
+            "Le Chatelier's principle": {
+              "difficulty": 7,
+              "learning_time": "medium",
+              "prerequisites": ["equilibrium constant (K)", "reaction quotient (Q)"],
+              "related_concepts": [],
+              "learning_style": "logical",
+              "concept_category": "principle",
+              "concept_properties": ["system at equilibrium", "stress applied", "shifts to relieve stress"],
+              "concept_applications": ["predicting effects of changes", "optimizing reaction conditions"],
+              "concept_misconceptions": ["equilibrium always shifts to form more products"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["explain Le Chatelier's principle", "predict equilibrium shifts"],
+              "prior_knowledge_assumptions": ["equilibrium constant", "reaction quotient"],
+              "question_type": ["explanation", "application"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://www.chemguide.co.uk/physical/equilibria/lechatelier.html"],
+              "source_type": "website"
+            },
+            "factors affecting equilibrium": {
+              "difficulty": 6,
+              "learning_time": "medium",
+              "prerequisites": ["Le Chatelier's principle"],
+              "related_concepts": [],
+              "learning_style": "logical",
+              "concept_category": "property",
+              "concept_properties": ["concentration", "temperature", "pressure", "catalysts"],
+              "concept_applications": ["controlling reaction outcomes"],
+              "concept_misconceptions": ["catalysts shift equilibrium"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["identify factors affecting equilibrium", "explain their effects"],
+              "prior_knowledge_assumptions": ["Le Chatelier's principle"],
+              "question_type": ["explanation", "application"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_(Zumdahl_DeCoste)/13%3A_Chemical_Equilibrium/13.06%3A_Factors_That_Affect_Chemical_Equilibrium"],
+              "source_type": "textbook"
+            },
+            "calculating equilibrium concentrations": {
+              "difficulty": 7,
+              "learning_time": "long",
+              "prerequisites": ["equilibrium constant (K)", "factors affecting equilibrium"],
+              "related_concepts": [],
+              "learning_style": "logical",
+              "concept_category": "calculation",
+              "concept_properties": ["ICE tables", "algebraic equations", "using K"],
+              "concept_applications": ["determining product yields"],
+              "concept_misconceptions": ["equilibrium concentrations are always equal"],
+              "cognitive_load": "high",
+              "learning_objectives": ["calculate equilibrium concentrations", "use ICE tables"],
+              "prior_knowledge_assumptions": ["equilibrium constant", "factors affecting equilibrium", "algebra"],
+              "question_type": ["calculation"],
+              "answer_length": "long",
+              "answer_format": "step-by-step calculation",
+              "answer_examples": [],
+              "source_citation": ["https://www.khanacademy.org/science/chemistry/chemical-equilibrium/calculating-equilibrium-constant/a/calculating-equilibrium-concentrations"],
+              "source_type": "website"
+            }
+          },
+          "questions": [
+            {
+              "template": "Define and explain the significance of [concept].",
+              "concepts": ["equilibrium constant (K)", "reaction quotient (Q)"],
+              "syntax_variation": "simple",
+              "question_type": ["definition", "explanation"]
+            },
+            {
+              "template": "How does [concept] predict the direction of a reaction?",
+              "concepts": ["reaction quotient (Q)", "Le Chatelier's principle"],
+              "syntax_variation": "medium",
+              "question_type": ["explanation"]
+            },
+            {
+              "template": "What are the [concept] that affect chemical equilibrium?",
+              "concepts": ["factors affecting equilibrium"],
+              "syntax_variation": "simple",
+              "question_type": ["explanation"]
+            },
+            {
+              "template": "Explain how to calculate [concept].",
+              "concepts": ["calculating equilibrium concentrations"],
+              "syntax_variation": "medium",
+              "question_type": ["calculation"]
+            },
+            {
+              "template": "How does [concept] help in optimizing reaction conditions?",
+              "concepts": ["Le Chatelier's principle"],
+              "syntax_variation": "medium",
+              "question_type": ["application"]
+            }
+          ],
+          "answers": {
+            "equilibrium constant (K)": ["The equilibrium constant (K) is the ratio of product concentrations to reactant concentrations at equilibrium, indicating the extent of a reaction."],
+            "reaction quotient (Q)": ["The reaction quotient (Q) is the ratio of product concentrations to reactant concentrations at any point in a reaction, used to predict reaction direction by comparing with K."],
+            "Le Chatelier's principle": ["Le Chatelier's principle states that a system at equilibrium will shift to relieve stress applied to it."],
+            "factors affecting equilibrium": ["Factors affecting equilibrium include concentration, temperature, pressure, and volume."],
+            "calculating equilibrium concentrations": ["Calculating equilibrium concentrations involves using ICE tables and the equilibrium constant to determine concentrations at equilibrium."]
+        }
+    },
+        "thermodynamics": {
+          "concepts": {
+            "enthalpy (H)": {
+              "difficulty": 6,
+              "learning_time": "medium",
+              "prerequisites": [],
+              "related_concepts": ["entropy (S)", "Gibbs free energy (G)"],
+              "learning_style": "logical",
+              "concept_category": "property",
+              "concept_properties": ["heat content", "change in heat at constant pressure", "endothermic and exothermic"],
+              "concept_applications": ["predicting heat flow", "calculating reaction heat"],
+              "concept_misconceptions": ["enthalpy is the same as internal energy"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["define enthalpy", "explain its significance"],
+              "prior_knowledge_assumptions": ["basic energy concepts"],
+              "question_type": ["definition", "explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_(Zumdahl_DeCoste)/17%3A_Thermodynamics/17.02%3A_Enthalpy"],
+              "source_type": "textbook"
+            },
+            "entropy (S)": {
+              "difficulty": 6,
+              "learning_time": "medium",
+              "prerequisites": [],
+              "related_concepts": ["Gibbs free energy (G)"],
+              "learning_style": "logical",
+              "concept_category": "property",
+              "concept_properties": ["measure of disorder", "increase in disorder is spontaneous", "related to microstates"],
+              "concept_applications": ["predicting spontaneity"],
+              "concept_misconceptions": ["entropy always increases"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["define entropy", "explain its significance"],
+              "prior_knowledge_assumptions": ["basic disorder concepts"],
+              "question_type": ["definition", "explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://www.khanacademy.org/science/chemistry/thermodynamics-chemistry/entropy-chemistry/a/entropy-s"],
+              "source_type": "website"
+            },
+            "Gibbs free energy (G)": {
+              "difficulty": 7,
+              "learning_time": "medium",
+              "prerequisites": ["enthalpy (H)", "entropy (S)"],
+              "related_concepts": [],
+              "learning_style": "logical",
+              "concept_category": "property",
+              "concept_properties": ["predicts spontaneity", "combines enthalpy and entropy", "G = H - TS"],
+              "concept_applications": ["predicting reaction spontaneity"],
+              "concept_misconceptions": ["negative G means fast reaction"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["define Gibbs free energy", "explain its significance"],
+              "prior_knowledge_assumptions": ["enthalpy", "entropy"],
+              "question_type": ["definition", "explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://www.chemguide.co.uk/physical/energetics/entropy.html"],
+              "source_type": "website"
+            },
+            "heat capacity": {
+              "difficulty": 5,
+              "learning_time": "medium",
+              "prerequisites": ["enthalpy (H)"],
+              "related_concepts": [],
+              "learning_style": "logical",
+              "concept_category": "property",
+              "concept_properties": ["heat required to raise temperature", "specific heat capacity", "molar heat capacity"],
+              "concept_applications": ["calculating heat transfer"],
+              "concept_misconceptions": ["heat capacity is constant for all substances"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["define heat capacity", "explain its types"],
+              "prior_knowledge_assumptions": ["enthalpy"],
+              "question_type": ["definition", "explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_(Zumdahl_DeCoste)/17%3A_Thermodynamics/17.03%3A_Heat_Capacity"],
+              "source_type": "textbook"
+            },
+            "Hess's law": {
+              "difficulty": 7,
+              "learning_time": "medium",
+              "prerequisites": ["enthalpy (H)"],
+              "related_concepts": [],
+              "learning_style": "logical",
+              "concept_category": "law",
+              "concept_properties": ["enthalpy is a state function", "enthalpy change is additive", "calculating enthalpy of reactions"],
+              "concept_applications": ["calculating enthalpies of reactions"],
+              "concept_misconceptions": ["Hess's law only works for exothermic reactions"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["explain Hess's law", "apply it to calculations"],
+              "prior_knowledge_assumptions": ["enthalpy"],
+              "question_type": ["explanation", "calculation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://www.khanacademy.org/science/chemistry/thermodynamics-chemistry/hess-law-chemistry/a/hess-law"],
+              "source_type": "website"
+            }
+          },
+          "questions": [
+            {
+              "template": "Define and explain the significance of [concept].",
+              "concepts": ["enthalpy (H)", "entropy (S)", "Gibbs free energy (G)"],
+              "syntax_variation": "simple",
+              "question_type": ["definition", "explanation"]
+            },
+            {
+              "template": "How is [concept] used to predict spontaneity?",
+              "concepts": ["Gibbs free energy (G)"],
+              "syntax_variation": "medium",
+              "question_type": ["explanation"]
+            },
+            {
+              "template": "Explain the concept of [concept] and its types.",
+              "concepts": ["heat capacity"],
+              "syntax_variation": "simple",
+              "question_type": ["explanation"]
+            },
+            {
+              "template": "How does [concept] help in calculating enthalpy changes?",
+              "concepts": ["Hess's law"],
+              "syntax_variation": "medium",
+              "question_type": ["explanation"]
+            },
+            {
+              "template": "Apply [concept] to calculate the enthalpy change for a given reaction.",
+              "concepts": ["Hess's law"],
+              "syntax_variation": "complex",
+              "question_type": ["calculation"]
+            }
+          ],
+          "answers": {
+            "enthalpy (H)": ["Enthalpy (H) is the heat content of a system at constant pressure."],
+            "entropy (S)": ["Entropy (S) is a measure of the disorder or randomness of a system."],
+            "Gibbs free energy (G)": ["Gibbs free energy (G) is a thermodynamic potential that predicts the spontaneity of a process."],
+            "heat capacity": ["Heat capacity is the amount of heat required to raise the temperature of a substance by a certain amount."],
+            "Hess's law": ["Hess's law states that the enthalpy change of an overall reaction is the sum of the enthalpy changes of its individual steps."]
+        }
+    },
+        "electrochemistry": {
+          "concepts": {
+            "oxidation and reduction": {
+              "difficulty": 5,
+              "learning_time": "medium",
+              "prerequisites": [],
+              "related_concepts": ["redox reactions", "oxidation numbers"],
+              "learning_style": "logical",
+              "concept_category": "process",
+              "concept_properties": ["loss of electrons (oxidation)", "gain of electrons (reduction)", "occur simultaneously"],
+              "concept_applications": ["batteries", "corrosion"],
+              "concept_misconceptions": ["oxidation always involves oxygen"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["define oxidation and reduction", "identify redox reactions"],
+              "prior_knowledge_assumptions": ["basic chemical reactions"],
+              "question_type": ["definition", "identification"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_(Zumdahl_DeCoste)/19%3A_Electrochemistry/19.02%3A_Oxidation_and_Reduction"],
+              "source_type": "textbook"
+            },
+            "oxidation numbers": {
+              "difficulty": 6,
+              "learning_time": "medium",
+              "prerequisites": ["oxidation and reduction"],
+              "related_concepts": ["balancing redox reactions"],
+              "learning_style": "logical",
+              "concept_category": "calculation",
+              "concept_properties": ["assigned to atoms", "indicate electron distribution", "rules for assignment"],
+              "concept_applications": ["identifying redox reactions", "balancing redox reactions"],
+              "concept_misconceptions": ["oxidation numbers are actual charges"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["assign oxidation numbers", "use them to identify redox reactions"],
+              "prior_knowledge_assumptions": ["oxidation and reduction"],
+              "question_type": ["calculation", "identification"],
+              "answer_length": "medium",
+              "answer_format": "step-by-step calculation",
+              "answer_examples": [],
+              "source_citation": ["https://www.khanacademy.org/science/chemistry/oxidation-reduction/redox-oxidation-reduction/a/oxidation-numbers"],
+              "source_type": "website"
+            },
+            "balancing redox reactions": {
+              "difficulty": 7,
+              "learning_time": "medium",
+              "prerequisites": ["oxidation numbers"],
+              "related_concepts": [],
+              "learning_style": "logical",
+              "concept_category": "calculation",
+              "concept_properties": ["half-reaction method", "acidic and basic solutions", "balancing atoms and charges"],
+              "concept_applications": ["predicting reaction stoichiometry"],
+              "concept_misconceptions": ["redox reactions are balanced like normal reactions"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["balance redox reactions", "use half-reaction method"],
+              "prior_knowledge_assumptions": ["oxidation numbers"],
+              "question_type": ["calculation"],
+              "answer_length": "long",
+              "answer_format": "step-by-step calculation",
+              "answer_examples": [],
+              "source_citation": ["https://www.chemguide.co.uk/inorganic/redox/equations.html"],
+              "source_type": "website"
+            },
+            "electrochemical cells": {
+              "difficulty": 6,
+              "learning_time": "medium",
+              "prerequisites": ["oxidation and reduction"],
+              "related_concepts": ["cell potential (E)"],
+              "learning_style": "visual",
+              "concept_category": "device",
+              "concept_properties": ["galvanic (voltaic) cells", "electrolytic cells", "anode and cathode"],
+              "concept_applications": ["batteries", "electrolysis"],
+              "concept_misconceptions": ["electrochemical cells only produce electricity"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["describe electrochemical cells", "differentiate between galvanic and electrolytic cells"],
+              "prior_knowledge_assumptions": ["oxidation and reduction"],
+              "question_type": ["explanation", "comparison"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_(Zumdahl_DeCoste)/19%3A_Electrochemistry/19.03%3A_Galvanic_Cells"],
+              "source_type": "textbook"
+            },
+            "cell potential (E)": {
+              "difficulty": 7,
+              "learning_time": "medium",
+              "prerequisites": ["electrochemical cells"],
+              "related_concepts": ["Nernst equation"],
+              "learning_style": "calculation",
+              "concept_category": "measurement",
+              "concept_properties": ["voltage of a cell", "standard reduction potentials", "predicts spontaneity"],
+              "concept_applications": ["calculating cell voltage", "predicting reaction spontaneity"],
+              "concept_misconceptions": ["cell potential is constant under all conditions"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["calculate cell potential", "use standard reduction potentials"],
+              "prior_knowledge_assumptions": ["electrochemical cells"],
+              "question_type": ["calculation", "application"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://www.khanacademy.org/science/chemistry/oxidation-reduction/electrochemical-cells/a/cell-potentials"],
+              "source_type": "website"
+            }
+          },
+          "questions": [
+            {
+              "template": "Define and explain the processes of [concept].",
+              "concepts": ["oxidation and reduction"],
+              "syntax_variation": "simple",
+              "question_type": ["definition", "explanation"]
+            },
+            {
+              "template": "How are [concept] used to identify redox reactions?",
+              "concepts": ["oxidation numbers"],
+              "syntax_variation": "medium",
+              "question_type": ["explanation"]
+            },
+            {
+              "template": "Explain the method for [concept].",
+              "concepts": ["balancing redox reactions"],
+              "syntax_variation": "simple",
+              "question_type": ["calculation"]
+            },
+            {
+              "template": "Describe the types of [concept] and their applications.",
+              "concepts": ["electrochemical cells"],
+              "syntax_variation": "medium",
+              "question_type": ["explanation"]
+            },
+            {
+              "template": "Explain how to calculate [concept] and its significance.",
+              "concepts": ["cell potential (E)"],
+              "syntax_variation": "medium",
+              "question_type": ["calculation", "explanation"]
+            }
+          ],
+          "answers": {
+            "oxidation and reduction": ["Oxidation is the loss of electrons, while reduction is the gain of electrons."],
+            "oxidation numbers": ["Oxidation numbers are assigned to atoms to indicate electron distribution in a molecule or ion."],
+            "balancing redox reactions": ["Balancing redox reactions involves using the half-reaction method to balance atoms and charges in acidic or basic solutions."],
+            "electrochemical cells": ["Electrochemical cells are devices that convert chemical energy into electrical energy (galvanic) or vice versa (electrolytic)."],
+            "cell potential (E)": ["Cell potential (E) is the voltage of an electrochemical cell, calculated using standard reduction potentials, and it predicts reaction spontaneity."]
+          }
+        },
+        "nuclear chemistry": {
+          "concepts": {
+            "radioactive decay": {
+              "difficulty": 6,
+              "learning_time": "medium",
+              "prerequisites": [],
+              "related_concepts": ["half-life", "nuclear reactions"],
+              "learning_style": "logical",
+              "concept_category": "process",
+              "concept_properties": ["unstable nuclei", "emission of particles or energy", "alpha, beta, gamma decay"],
+              "concept_applications": ["radioactive dating", "nuclear medicine"],
+              "concept_misconceptions": ["radioactive decay is affected by temperature"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["define radioactive decay", "describe types of decay"],
+              "prior_knowledge_assumptions": ["basic atomic structure"],
+              "question_type": ["definition", "explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_(Zumdahl_DeCoste)/20%3A_Nuclear_Chemistry/20.02%3A_Nuclear_Stability_and_Radioactive_Decay"],
+              "source_type": "textbook"
+            },
+            "half-life": {
+              "difficulty": 6,
+              "learning_time": "medium",
+              "prerequisites": ["radioactive decay"],
+              "related_concepts": ["radioactive dating"],
+              "learning_style": "calculation",
+              "concept_category": "measurement",
+              "concept_properties": ["time for half the nuclei to decay", "constant for a given isotope", "used in dating"],
+              "concept_applications": ["radioactive dating", "medical imaging"],
+              "concept_misconceptions": ["half-life changes with sample size"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["define half-life", "calculate remaining amount"],
+              "prior_knowledge_assumptions": ["radioactive decay"],
+              "question_type": ["definition", "calculation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://www.khanacademy.org/science/chemistry/nuclear-chemistry/radioactive-decay/a/half-life-and-rate-of-radioactive-decay"],
+              "source_type": "website"
+            },
+            "nuclear reactions": {
+              "difficulty": 7,
+              "learning_time": "medium",
+              "prerequisites": ["radioactive decay"],
+              "related_concepts": ["nuclear fission", "nuclear fusion"],
+              "learning_style": "logical",
+              "concept_category": "reaction",
+              "concept_properties": ["changes in nuclei", "transmutation", "energy release"],
+              "concept_applications": ["nuclear power", "nuclear weapons"],
+              "concept_misconceptions": ["nuclear reactions are chemical reactions"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["describe nuclear reactions", "differentiate from chemical reactions"],
+              "prior_knowledge_assumptions": ["radioactive decay"],
+              "question_type": ["explanation", "comparison"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://www.chemguide.co.uk/physical/nuclear/fission.html"],
+              "source_type": "website"
+            },
+            "nuclear fission": {
+              "difficulty": 7,
+              "learning_time": "medium",
+              "prerequisites": ["nuclear reactions"],
+              "related_concepts": ["nuclear fusion"],
+              "learning_style": "logical",
+              "concept_category": "reaction",
+              "concept_properties": ["splitting of heavy nuclei", "chain reactions", "energy release"],
+              "concept_applications": ["nuclear power plants", "atomic bombs"],
+              "concept_misconceptions": ["fission releases less energy than fusion"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["describe nuclear fission", "explain chain reactions"],
+              "prior_knowledge_assumptions": ["nuclear reactions"],
+              "question_type": ["explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_(Zumdahl_DeCoste)/20%3A_Nuclear_Chemistry/20.06%3A_Nuclear_Fission"],
+              "source_type": "textbook"
+            },
+            "nuclear fusion": {
+              "difficulty": 8,
+              "learning_time": "medium",
+              "prerequisites": ["nuclear reactions"],
+              "related_concepts": ["nuclear fission"],
+              "learning_style": "logical",
+              "concept_category": "reaction",
+              "concept_properties": ["combining light nuclei", "releases enormous energy", "occurs in stars"],
+              "concept_applications": ["hydrogen bombs", "potential energy source"],
+              "concept_misconceptions": ["fusion is easily achievable on Earth"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["describe nuclear fusion", "explain its significance"],
+              "prior_knowledge_assumptions": ["nuclear reactions"],
+              "question_type": ["explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://www.khanacademy.org/science/chemistry/nuclear-chemistry/fission-and-fusion/a/nuclear-fusion"],
+              "source_type": "website"
+            }
+          },
+          "questions": [
+            {
+              "template": "Define and explain the process of [concept].",
+              "concepts": ["radioactive decay"],
+              "syntax_variation": "simple",
+              "question_type": ["definition", "explanation"]
+            },
+            {
+              "template": "How is [concept] used in radioactive dating?",
+              "concepts": ["half-life"],
+              "syntax_variation": "medium",
+              "question_type": ["explanation"]
+            },
+            {
+              "template": "Describe the characteristics of [concept].",
+              "concepts": ["nuclear reactions"],
+              "syntax_variation": "simple",
+              "question_type": ["explanation"]
+            },
+            {
+              "template": "Compare and contrast the following concepts.",
+              "concepts": ["nuclear fission", "nuclear fusion"],
+              "syntax_variation": "medium",
+              "question_type": ["comparison"]
+            },
+            {
+              "template": "What are the applications of [concept] in energy production?",
+              "concepts": ["nuclear fission", "nuclear fusion"],
+              "syntax_variation": "medium",
+              "question_type": ["application"]
+            }
+          ],
+          "answers": {
+            "radioactive decay": ["Radioactive decay is the process by which unstable atomic nuclei emit particles or energy to become more stable."],
+            "half-life": ["Half-life is the time required for half of the radioactive nuclei in a sample to decay."],
+            "nuclear reactions": ["Nuclear reactions involve changes in the nuclei of atoms, resulting in transmutation and energy release."],
+            "nuclear fission": ["Nuclear fission is the splitting of a heavy atomic nucleus into lighter nuclei, releasing a large amount of energy."],
+            "nuclear fusion": ["Nuclear fusion is the combining of light atomic nuclei to form a heavier nucleus, releasing an enormous amount of energy."]
+          }
+        },
+        "solutions": {
+          "concepts": {
+            "solubility": {
+              "difficulty": 5,
+              "learning_time": "medium",
+              "prerequisites": [],
+              "related_concepts": ["concentration", "factors affecting solubility"],
+              "learning_style": "logical",
+              "concept_category": "property",
+              "concept_properties": ["maximum amount of solute", "saturated, unsaturated, supersaturated", "temperature and pressure effects"],
+              "concept_applications": ["preparing solutions", "understanding chemical reactions"],
+              "concept_misconceptions": ["solubility is constant for all solutes"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["define solubility", "explain factors affecting it"],
+              "prior_knowledge_assumptions": ["basic mixtures"],
+              "question_type": ["definition", "explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_(Zumdahl_DeCoste)/12%3A_Liquids_and_Solutions/12.02%3A_A_Molecular_View_of_Solutions"],
+              "source_type": "textbook"
+            },
+            "concentration": {
+              "difficulty": 5,
+              "learning_time": "medium",
+              "prerequisites": ["solubility"],
+              "related_concepts": ["molarity", "molality"],
+              "learning_style": "calculation",
+              "concept_category": "measurement",
+              "concept_properties": ["amount of solute in solvent", "molarity, molality, mass percent", "dilution"],
+              "concept_applications": ["preparing solutions", "stoichiometry in solutions"],
+              "concept_misconceptions": ["molarity and molality are interchangeable"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["define concentration", "calculate different concentration units"],
+              "prior_knowledge_assumptions": ["solubility", "basic math"],
+              "question_type": ["definition", "calculation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://www.khanacademy.org/science/chemistry/solutions-and-solubility/molarity/a/molarity"],
+              "source_type": "website"
+            },
+            "molarity (M)": {
+              "difficulty": 6,
+              "learning_time": "medium",
+              "prerequisites": ["concentration"],
+              "related_concepts": ["molality (m)"],
+              "learning_style": "calculation",
+              "concept_category": "measurement",
+              "concept_properties": ["moles of solute per liter of solution", "temperature-dependent"],
+              "concept_applications": ["stoichiometry in solutions", "titration"],
+              "concept_misconceptions": ["molarity is temperature-independent"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["define molarity", "calculate molarity"],
+              "prior_knowledge_assumptions": ["concentration", "moles"],
+              "question_type": ["definition", "calculation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://www.chemguide.co.uk/calculations/solutions/molarity.html"],
+              "source_type": "website"
+            },
+            "molality (m)": {
+              "difficulty": 6,
+              "learning_time": "medium",
+              "prerequisites": ["concentration"],
+              "related_concepts": ["molarity (M)"],
+              "learning_style": "calculation",
+              "concept_category": "measurement",
+              "concept_properties": ["moles of solute per kilogram of solvent", "temperature-independent"],
+              "concept_applications": ["colligative properties", "temperature-independent calculations"],
+              "concept_misconceptions": ["molality is the same as molarity"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["define molality", "calculate molality"],
+              "prior_knowledge_assumptions": ["concentration", "moles"],
+              "question_type": ["definition", "calculation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_(Zumdahl_DeCoste)/12%3A_Liquids_and_Solutions/12.04%3A_Molality"],
+              "source_type": "textbook"
+            },
+            "colligative properties": {
+              "difficulty": 7,
+              "learning_time": "medium",
+              "prerequisites": ["molarity", "molality"],
+              "related_concepts": [],
+              "learning_style": "calculation",
+              "concept_category": "property",
+              "concept_properties": ["depend on solute concentration", "boiling point elevation, freezing point depression", "osmotic pressure"],
+              "concept_applications": ["determining molar mass", "understanding solution behavior"],
+              "concept_misconceptions": ["colligative properties depend on solute identity"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["define colligative properties", "calculate changes in boiling/freezing points"],
+              "prior_knowledge_assumptions": ["molarity", "molality"],
+              "question_type": ["definition", "calculation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://www.khanacademy.org/science/chemistry/solutions-and-solubility/colligative-properties/a/colligative-properties"],
+              "source_type": "website"
+            }
+          },
+          "questions": [
+            {
+              "template": "Define [concept] and explain the factors affecting it.",
+              "concepts": ["solubility"],
+              "syntax_variation": "simple",
+              "question_type": ["definition", "explanation"]
+            },
+            {
+              "template": "How is [concept] measured and calculated?",
+              "concepts": ["concentration", "molarity (M)", "molality (m)"],
+              "syntax_variation": "medium",
+              "question_type": ["calculation", "explanation"]
+            },
+            {
+              "template": "What are [concept] and how are they calculated?",
+              "concepts": ["colligative properties"],
+              "syntax_variation": "medium",
+              "question_type": ["definition", "calculation"]
+            },
+            {
+              "template": "Compare and contrast the following concepts.",
+              "concepts": ["molarity (M)", "molality (m)"],
+              "syntax_variation": "medium",
+              "question_type": ["comparison"]
+            },
+            {
+              "template": "Explain the applications of [concept] in chemical calculations.",
+              "concepts": ["molarity (M)", "molality (m)", "colligative properties"],
+              "syntax_variation": "medium",
+              "question_type": ["application"]
+            }
+          ],
+          "answers": {
+            "solubility": ["Solubility is the maximum amount of a solute that can dissolve in a solvent at a given temperature."],
+            "concentration": ["Concentration is the amount of solute present in a given amount of solvent or solution."],
+            "molarity (M)": ["Molarity (M) is the number of moles of solute per liter of solution."],
+            "molality (m)": ["Molality (m) is the number of moles of solute per kilogram of solvent."],
+            "colligative properties": ["Colligative properties are properties of solutions that depend on the concentration of solute particles, not their identity."]
+          }
+        },
+        "kinetics": {
+          "concepts": {
+            "reaction rate": {
+              "difficulty": 5,
+              "learning_time": "medium",
+              "prerequisites": [],
+              "related_concepts": ["rate laws", "factors affecting rate"],
+              "learning_style": "logical",
+              "concept_category": "measurement",
+              "concept_properties": ["change in concentration over time", "positive for products, negative for reactants"],
+              "concept_applications": ["predicting reaction speed", "optimizing reactions"],
+              "concept_misconceptions": ["reaction rate is constant"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["define reaction rate", "calculate average and instantaneous rates"],
+              "prior_knowledge_assumptions": ["basic chemical reactions"],
+              "question_type": ["definition", "calculation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_(Zumdahl_DeCoste)/14%3A_Chemical_Kinetics/14.02%3A_Reaction_Rates"],
+              "source_type": "textbook"
+            },
+            "rate laws": {
+              "difficulty": 6,
+              "learning_time": "medium",
+              "prerequisites": ["reaction rate"],
+              "related_concepts": ["reaction order"],
+              "learning_style": "calculation",
+              "concept_category": "equation",
+              "concept_properties": ["relates rate to reactant concentrations", "rate constant (k)", "determined experimentally"],
+              "concept_applications": ["predicting reaction rates", "determining reaction mechanisms"],
+              "concept_misconceptions": ["rate laws are based on stoichiometry"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["define rate laws", "determine rate laws from data"],
+              "prior_knowledge_assumptions": ["reaction rate"],
+              "question_type": ["definition", "calculation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://www.khanacademy.org/science/chemistry/chemical-kinetics/rate-laws/a/rate-laws"],
+              "source_type": "website"
+            },
+            "reaction order": {
+              "difficulty": 6,
+              "learning_time": "medium",
+              "prerequisites": ["rate laws"],
+              "related_concepts": [],
+              "learning_style": "calculation",
+              "concept_category": "property",
+              "concept_properties": ["exponent in rate law", "zero, first, second order", "indicates concentration dependence"],
+              "concept_applications": ["determining reaction mechanisms"],
+              "concept_misconceptions": ["reaction order is the same as stoichiometric coefficients"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["define reaction order", "determine reaction order"],
+              "prior_knowledge_assumptions": ["rate laws"],
+              "question_type": ["definition", "calculation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://www.chemguide.co.uk/physical/basicrates/orders.html"],
+              "source_type": "website"
+            },
+            "factors affecting rate": {
+              "difficulty": 6,
+              "learning_time": "medium",
+              "prerequisites": ["reaction rate"],
+              "related_concepts": ["activation energy", "catalysts"],
+              "learning_style": "logical",
+              "concept_category": "property",
+              "concept_properties": ["concentration, temperature, surface area, catalysts"],
+              "concept_applications": ["controlling reaction speed"],
+              "concept_misconceptions": ["catalysts are consumed in reactions"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["identify factors affecting rate", "explain their effects"],
+              "prior_knowledge_assumptions": ["reaction rate"],
+              "question_type": ["explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_(Zumdahl_DeCoste)/14%3A_Chemical_Kinetics/14.05%3A_Factors_That_Affect_Reaction_Rates"],
+              "source_type": "textbook"
+            },
+            "activation energy (Ea)": {
+              "difficulty": 7,
+              "learning_time": "medium",
+              "prerequisites": ["factors affecting rate"],
+              "related_concepts": ["Arrhenius equation"],
+              "learning_style": "calculation",
+              "concept_category": "measurement",
+              "concept_properties": ["minimum energy for reaction", "affects rate constant", "related to temperature dependence"],
+              "concept_applications": ["predicting temperature effects on rate"],
+              "concept_misconceptions": ["activation energy is the same as enthalpy"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["define activation energy", "calculate Ea using Arrhenius equation"],
+              "prior_knowledge_assumptions": ["factors affecting rate"],
+              "question_type": ["definition", "calculation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://www.khanacademy.org/science/chemistry/chemical-kinetics/arrhenius-equation/a/activation-energy"],
+              "source_type": "website"
+            }
+          },
+          "questions": [
+            {
+              "template": "Define and explain the concept of [concept].",
+              "concepts": ["reaction rate"],
+              "syntax_variation": "simple",
+              "question_type": ["definition", "explanation"]
+            },
+            {
+              "template": "How are [concept] determined and used?",
+              "concepts": ["rate laws", "reaction order"],
+              "syntax_variation": "medium",
+              "question_type": ["calculation", "explanation"]
+            },
+            {
+              "template": "What are the [concept] that affect reaction rates?",
+              "concepts": ["factors affecting rate"],
+              "syntax_variation": "simple",
+              "question_type": ["explanation"]
+            },
+            {
+              "template": "Explain the significance of [concept] in reaction kinetics.",
+              "concepts": ["activation energy (Ea)"],
+              "syntax_variation": "medium",
+              "question_type": ["explanation"]
+            },
+            {
+              "template": "How is [concept] calculated using the Arrhenius equation?",
+              "concepts": ["activation energy (Ea)"],
+              "syntax_variation": "complex",
+              "question_type": ["calculation"]
+            }
+          ],
+          "answers": {
+            "reaction rate": ["Reaction rate is the change in concentration of reactants or products per unit time."],
+            "rate laws": ["Rate laws express the relationship between reaction rate and reactant concentrations."],
+            "reaction order": ["Reaction order is the exponent in the rate law that indicates how reactant concentration affects rate."],
+            "factors affecting rate": ["Factors affecting reaction rate include concentration, temperature, surface area, and catalysts."],
+            "activation energy (Ea)": ["Activation energy (Ea) is the minimum energy required for a reaction to occur."]
+          }
+        },
+        "analytical chemistry": {
+          "concepts": {
+            "titration": {
+              "difficulty": 6,
+              "learning_time": "medium",
+              "prerequisites": ["molarity"],
+              "related_concepts": ["stoichiometry", "equivalence point"],
+              "learning_style": "calculation",
+              "concept_category": "technique",
+              "concept_properties": ["determining concentration", "using a titrant", "endpoint and equivalence point"],
+              "concept_applications": ["acid-base titrations", "redox titrations"],
+              "concept_misconceptions": ["endpoint and equivalence point are the same"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["perform titrations", "calculate concentrations"],
+              "prior_knowledge_assumptions": ["molarity", "stoichiometry"],
+              "question_type": ["calculation", "application"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Supplemental_Modules_(Analytical_Chemistry)/Analytical_Chemistry_2.0/03_Quantitative_Measurements/3.04_Titrations"],
+              "source_type": "textbook"
+            },
+            "spectroscopy": {
+              "difficulty": 7,
+              "learning_time": "medium",
+              "prerequisites": [],
+              "related_concepts": ["Beer-Lambert law"],
+              "learning_style": "visual",
+              "concept_category": "technique",
+              "concept_properties": ["interaction of light with matter", "absorption and emission spectra", "various types (UV-Vis, IR, NMR)"],
+              "concept_applications": ["identifying compounds", "determining concentrations"],
+              "concept_misconceptions": ["spectroscopy only identifies elements"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["explain spectroscopy", "describe different types"],
+              "prior_knowledge_assumptions": ["basic light and energy concepts"],
+              "question_type": ["explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://www.khanacademy.org/science/chemistry/atomic-structure-and-properties/photoelectron-spectroscopy/a/spectroscopy"],
+              "source_type": "website"
+            },
+            "Beer-Lambert law": {
+              "difficulty": 7,
+              "learning_time": "medium",
+              "prerequisites": ["spectroscopy"],
+              "related_concepts": [],
+              "learning_style": "calculation",
+              "concept_category": "equation",
+              "concept_properties": ["absorbance vs. concentration", "A = εbc", "used in UV-Vis spectroscopy"],
+              "concept_applications": ["determining concentrations", "quantifying substances"],
+              "concept_misconceptions": ["Beer-Lambert law applies to all wavelengths"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["explain Beer-Lambert law", "apply it to calculations"],
+              "prior_knowledge_assumptions": ["spectroscopy"],
+              "question_type": ["calculation", "explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://www.chemguide.co.uk/analysis/uvvisible/beerlambert.html"],
+              "source_type": "website"
+            },
+            "chromatography": {
+              "difficulty": 7,
+              "learning_time": "medium",
+              "prerequisites": [],
+              "related_concepts": [],
+              "learning_style": "visual",
+              "concept_category": "technique",
+              "concept_properties": ["separation of mixtures", "mobile and stationary phases", "various types (TLC, GC, HPLC)"],
+              "concept_applications": ["separating and identifying components", "purifying compounds"],
+              "concept_misconceptions": ["chromatography only separates colored compounds"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["explain chromatography", "describe different types"],
+              "prior_knowledge_assumptions": ["basic mixtures"],
+              "question_type": ["explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Supplemental_Modules_(Analytical_Chemistry)/Analytical_Chemistry_2.0/04_Chromatography/4.01_Introduction_to_Chromatography"],
+              "source_type": "textbook"
+            },
+            "mass spectrometry": {
+              "difficulty": 8,
+              "learning_time": "medium",
+              "prerequisites": [],
+              "related_concepts": [],
+              "learning_style": "visual",
+              "concept_category": "technique",
+              "concept_properties": ["ionizing and separating ions", "mass-to-charge ratio", "identifying compounds"],
+              "concept_applications": ["determining molecular mass", "identifying unknown compounds"],
+              "concept_misconceptions": ["mass spectrometry measures mass directly"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["explain mass spectrometry", "interpret mass spectra"],
+              "prior_knowledge_assumptions": ["basic ions"],
+              "question_type": ["explanation", "interpretation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://www.khanacademy.org/science/chemistry/atomic-structure-and-properties/mass-spectrometry/a/mass-spectrometry"],
+              "source_type": "website"
+            }
+          },
+          "questions": [
+            {
+              "template": "Explain the process of [concept] and its applications.",
+              "concepts": ["titration"],
+              "syntax_variation": "simple",
+              "question_type": ["explanation", "application"]
+            },
+            {
+              "template": "Describe the principles and types of [concept].",
+              "concepts": ["spectroscopy", "chromatography", "mass spectrometry"],
+              "syntax_variation": "medium",
+              "question_type": ["explanation"]
+            },
+            {
+              "template": "Explain the [concept] and its use in quantitative analysis.",
+              "concepts": ["Beer-Lambert law"],
+              "syntax_variation": "medium",
+              "question_type": ["explanation", "calculation"]
+            },
+            {
+              "template": "How is [concept] used to determine the concentration of a substance?",
+              "concepts": ["titration", "Beer-Lambert law"],
+              "syntax_variation": "medium",
+              "question_type": ["application", "calculation"]
+            },
+            {
+              "template": "What information can be obtained from [concept]?",
+              "concepts": ["spectroscopy", "mass spectrometry"],
+              "syntax_variation": "medium",
+              "question_type": ["interpretation"]
+            }
+          ],
+          "answers": {
+            "titration": ["Titration is a technique used to determine the concentration of a solution by reacting it with a solution of known concentration."],
+            "spectroscopy": ["Spectroscopy is the study of the interaction of light with matter, used to identify and quantify substances."],
+            "Beer-Lambert law": ["The Beer-Lambert law relates the absorbance of light by a solution to the concentration of the absorbing species."],
+            "chromatography": ["Chromatography is a separation technique used to separate and identify components of a mixture."],
+            "mass spectrometry": ["Mass spectrometry is a technique used to identify compounds by ionizing and separating ions based on their mass-to-charge ratio."]
+          }
+        },
+        "polymer chemistry": {
+          "concepts": {
+            "polymerization": {
+              "difficulty": 6,
+              "learning_time": "medium",
+              "prerequisites": ["organic chemistry"],
+              "related_concepts": ["addition polymerization", "condensation polymerization"],
+              "learning_style": "logical",
+              "concept_category": "process",
+              "concept_properties": ["joining monomers", "forming long chains", "various types of reactions"],
+              "concept_applications": ["plastics", "synthetic fibers"],
+              "concept_misconceptions": ["all polymers are synthetic"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["define polymerization", "explain different types"],
+              "prior_knowledge_assumptions": ["basic organic chemistry"],
+              "question_type": ["definition", "explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Map%3A_Organic_Chemistry_(Vollhardt_and_Schore)/24%3A_Polymers/24.01%3A_Introduction_to_Polymers"],
+              "source_type": "textbook"
+            },
+            "addition polymerization": {
+              "difficulty": 6,
+              "learning_time": "medium",
+              "prerequisites": ["polymerization"],
+              "related_concepts": [],
+              "learning_style": "logical",
+              "concept_category": "process",
+              "concept_properties": ["joining monomers without byproducts", "involves alkenes", "chain-growth"],
+              "concept_applications": ["polyethylene", "polypropylene"],
+              "concept_misconceptions": ["addition polymers are always linear"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["describe addition polymerization", "provide examples"],
+              "prior_knowledge_assumptions": ["polymerization"],
+              "question_type": ["explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://www.khanacademy.org/science/organic-chemistry/polymers/polymers/a/addition-polymerization"],
+              "source_type": "website"
+            },
+            "condensation polymerization": {
+              "difficulty": 7,
+              "learning_time": "medium",
+              "prerequisites": ["polymerization"],
+              "related_concepts": [],
+              "learning_style": "logical",
+              "concept_category": "process",
+              "concept_properties": ["joining monomers with byproducts", "forms polyesters and polyamides", "step-growth"],
+              "concept_applications": ["nylon", "polyesters"],
+              "concept_misconceptions": ["condensation polymers are always biodegradable"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["describe condensation polymerization", "provide examples"],
+              "prior_knowledge_assumptions": ["polymerization"],
+              "question_type": ["explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://www.chemguide.co.uk/organicprops/polymers/condensation.html"],
+              "source_type": "website"
+            },
+            "polymer properties": {
+              "difficulty": 7,
+              "learning_time": "medium",
+              "prerequisites": ["polymerization"],
+              "related_concepts": [],
+              "learning_style": "logical",
+              "concept_category": "property",
+              "concept_properties": ["molecular weight", "chain branching", "crosslinking", "thermoplastics and thermosets"],
+              "concept_applications": ["material design", "predicting polymer behavior"],
+              "concept_misconceptions": ["all polymers have the same properties"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["describe polymer properties", "explain their effects"],
+              "prior_knowledge_assumptions": ["polymerization"],
+              "question_type": ["explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_(Petrucci_et_al.)/27%3A_Synthetic_and_Natural_Polymers/27.02%3A_Properties_of_Polymers"],
+              "source_type": "textbook"
+            },
+            "polymer applications": {
+              "difficulty": 6,
+              "learning_time": "medium",
+              "prerequisites": ["polymer properties"],
+              "related_concepts": [],
+              "learning_style": "logical",
+              "concept_category": "application",
+              "concept_properties": ["plastics", "fibers", "elastomers", "composites"],
+              "concept_applications": ["packaging", "textiles", "automotive", "aerospace"],
+              "concept_misconceptions": ["polymers are only used in cheap products"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["describe polymer applications", "explain their significance"],
+              "prior_knowledge_assumptions": ["polymer properties"],
+              "question_type": ["explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://www.khanacademy.org/science/organic-chemistry/polymers/polymers/a/polymer-applications"],
+              "source_type": "website"
+            }
+          },
+          "questions": [
+            {
+              "template": "Define [concept] and explain its different types.",
+              "concepts": ["polymerization"],
+              "syntax_variation": "simple",
+              "question_type": ["definition", "explanation"]
+            },
+            {
+              "template": "Describe the process of [concept].",
+              "concepts": ["addition polymerization", "condensation polymerization"],
+              "syntax_variation": "simple",
+              "question_type": ["explanation"]
+            },
+            {
+              "template": "What are the key [concept] of polymers?",
+              "concepts": ["polymer properties"],
+              "syntax_variation": "simple",
+              "question_type": ["explanation"]
+            },
+            {
+              "template": "Explain the various [concept] of polymers.",
+              "concepts": ["polymer applications"],
+              "syntax_variation": "simple",
+              "question_type": ["explanation"]
+            },
+            {
+              "template": "Compare and contrast [concept1] and [concept2].",
+              "concepts": [["addition polymerization", "condensation polymerization"]],
+              "syntax_variation": "medium",
+              "question_type": ["comparison"]
+            }
+          ],
+          "answers": {
+            "polymerization": ["Polymerization is the process of joining monomers to form long chains or networks, creating polymers."],
+            "addition polymerization": ["Addition polymerization involves the joining of monomers without the loss of any atoms, often using alkenes."],
+            "condensation polymerization": ["Condensation polymerization involves the joining of monomers with the loss of small molecules, like water, as byproducts."],
+            "polymer properties": ["Polymer properties include molecular weight, chain branching, crosslinking, and whether they are thermoplastics or thermosets."],
+            "polymer applications": ["Polymer applications include plastics, fibers, elastomers, and composites used in various industries."]
+          }
+        },
+        "biochemistry": {
+          "concepts": {
+            "carbohydrates": {
+              "difficulty": 6,
+              "learning_time": "medium",
+              "prerequisites": ["organic chemistry"],
+              "related_concepts": ["monosaccharides", "disaccharides", "polysaccharides"],
+              "learning_style": "logical",
+              "concept_category": "biomolecule",
+              "concept_properties": ["sugars and starches", "energy source", "structural components"],
+              "concept_applications": ["energy storage", "cell structure"],
+              "concept_misconceptions": ["all carbohydrates are unhealthy"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["describe carbohydrates", "explain their roles"],
+              "prior_knowledge_assumptions": ["basic organic chemistry"],
+              "question_type": ["definition", "explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://chem.libretexts.org/Bookshelves/Biological_Chemistry/Supplemental_Modules_(Biological_Chemistry)/Carbohydrates/14%3A_Carbohydrates"],
+              "source_type": "textbook"
+            },
+            "lipids": {
+              "difficulty": 6,
+              "learning_time": "medium",
+              "prerequisites": ["organic chemistry"],
+              "related_concepts": ["fats", "oils", "phospholipids"],
+              "learning_style": "logical",
+              "concept_category": "biomolecule",
+              "concept_properties": ["fats and oils", "energy storage", "cell membrane components"],
+              "concept_applications": ["energy storage", "insulation", "membrane structure"],
+              "concept_misconceptions": ["all lipids are bad for you"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["describe lipids", "explain their roles"],
+              "prior_knowledge_assumptions": ["basic organic chemistry"],
+              "question_type": ["definition", "explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://www.khanacademy.org/science/biology/macromolecules/lipids/a/lipids"],
+              "source_type": "website"
+            },
+            "proteins": {
+              "difficulty": 7,
+              "learning_time": "medium",
+              "prerequisites": ["organic chemistry"],
+              "related_concepts": ["amino acids", "peptide bonds", "protein structure"],
+              "learning_style": "logical",
+              "concept_category": "biomolecule",
+              "concept_properties": ["amino acid polymers", "enzymes", "structural components"],
+              "concept_applications": ["catalysis", "structural support", "transport"],
+              "concept_misconceptions": ["all proteins are enzymes"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["describe proteins", "explain their roles"],
+              "prior_knowledge_assumptions": ["basic organic chemistry"],
+              "question_type": ["definition", "explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://www.chemguide.co.uk/organicprops/aminoacids/proteinstructure.html"],
+              "source_type": "website"
+            },
+            "nucleic acids": {
+              "difficulty": 7,
+              "learning_time": "medium",
+              "prerequisites": ["organic chemistry"],
+              "related_concepts": ["DNA", "RNA", "nucleotides"],
+              "learning_style": "logical",
+              "concept_category": "biomolecule",
+              "concept_properties": ["DNA and RNA", "genetic information", "nucleotide polymers"],
+              "concept_applications": ["genetic information storage", "protein synthesis"],
+              "concept_misconceptions": ["DNA is the only nucleic acid"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["describe nucleic acids", "explain their roles"],
+              "prior_knowledge_assumptions": ["basic organic chemistry"],
+              "question_type": ["definition", "explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://chem.libretexts.org/Bookshelves/Biological_Chemistry/Supplemental_Modules_(Biological_Chemistry)/Nucleic_Acids/01%3A_Nucleic_Acids"],
+              "source_type": "textbook"
+            },
+            "enzymes": {
+              "difficulty": 7,
+              "learning_time": "medium",
+              "prerequisites": ["proteins"],
+              "related_concepts": ["enzyme kinetics", "active site"],
+              "learning_style": "logical",
+              "concept_category": "biomolecule",
+              "concept_properties": ["biological catalysts", "speed up reactions", "specific to substrates"],
+              "concept_applications": ["metabolic pathways", "industrial processes"],
+              "concept_misconceptions": ["enzymes are consumed in reactions"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["describe enzymes", "explain their roles"],
+              "prior_knowledge_assumptions": ["proteins"],
+              "question_type": ["definition", "explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://www.khanacademy.org/science/biology/energy-and-enzymes/introduction-to-enzymes/a/enzymes"],
+              "source_type": "website"
+            }
+          },
+          "questions": [
+            {
+              "template": "Describe the structure and function of [concept].",
+              "concepts": ["carbohydrates", "lipids", "proteins", "nucleic acids"],
+              "syntax_variation": "simple",
+              "question_type": ["explanation"]
+            },
+            {
+              "template": "What are the roles of [concept] in biological systems?",
+              "concepts": ["enzymes"],
+              "syntax_variation": "simple",
+              "question_type": ["explanation"]
+            },
+            {
+              "template": "Explain the significance of [concept] in living organisms.",
+              "concepts": ["carbohydrates", "lipids", "proteins", "nucleic acids", "enzymes"],
+              "syntax_variation": "medium",
+              "question_type": ["explanation"]
+            },
+            {
+              "template": "How do [concept] contribute to cellular processes?",
+              "concepts": ["proteins", "nucleic acids", "enzymes"],
+              "syntax_variation": "medium",
+              "question_type": ["explanation"]
+            },
+            {
+              "template": "What are the building blocks of [concept]?",
+              "concepts": ["proteins", "nucleic acids"],
+              "syntax_variation": "simple",
+              "question_type": ["explanation"]
+            }
+          ],
+          "answers": {
+            "carbohydrates": ["Carbohydrates are sugars and starches that serve as energy sources and structural components in living organisms."],
+            "lipids": ["Lipids are fats and oils that store energy and form cell membrane components."],
+            "proteins": ["Proteins are polymers of amino acids that function as enzymes, structural components, and transport molecules."],
+            "nucleic acids": ["Nucleic acids, such as DNA and RNA, store and transmit genetic information."],
+            "enzymes": ["Enzymes are biological catalysts that speed up chemical reactions in living organisms."]
+          }
+        },
+        "environmental chemistry": {
+          "concepts": {
+            "air pollution": {
+              "difficulty": 6,
+              "learning_time": "medium",
+              "prerequisites": [],
+              "related_concepts": ["greenhouse gases", "acid rain"],
+              "learning_style": "logical",
+              "concept_category": "environmental issue",
+              "concept_properties": ["gases and particles in the atmosphere", "sources and effects", "types of pollutants"],
+              "concept_applications": ["understanding environmental impacts", "developing mitigation strategies"],
+              "concept_misconceptions": ["air pollution is only a problem in urban areas"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["define air pollution", "explain its causes and effects"],
+              "prior_knowledge_assumptions": ["basic atmospheric composition"],
+              "question_type": ["definition", "explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://www.epa.gov/air-pollution"],
+              "source_type": "website"
+            },
+            "water pollution": {
+              "difficulty": 6,
+              "learning_time": "medium",
+              "prerequisites": [],
+              "related_concepts": ["eutrophication", "toxic waste"],
+              "learning_style": "logical",
+              "concept_category": "environmental issue",
+              "concept_properties": ["contaminants in water bodies", "sources and effects", "types of pollutants"],
+              "concept_applications": ["understanding environmental impacts", "developing remediation strategies"],
+              "concept_misconceptions": ["water pollution only affects surface water"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["define water pollution", "explain its causes and effects"],
+              "prior_knowledge_assumptions": ["basic water properties"],
+              "question_type": ["definition", "explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://www.who.int/news-room/fact-sheets/detail/drinking-water"],
+              "source_type": "website"
+            },
+            "greenhouse gases": {
+              "difficulty": 6,
+              "learning_time": "medium",
+              "prerequisites": ["air pollution"],
+              "related_concepts": ["global warming", "climate change"],
+              "learning_style": "logical",
+              "concept_category": "atmospheric component",
+              "concept_properties": ["gases that trap heat", "CO2, CH4, N2O", "sources and effects"],
+              "concept_applications": ["understanding climate change", "developing mitigation strategies"],
+              "concept_misconceptions": ["greenhouse effect is entirely negative"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["define greenhouse gases", "explain their effects"],
+              "prior_knowledge_assumptions": ["air pollution"],
+              "question_type": ["definition", "explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://www.ipcc.ch/sr15/chapter/chapter-2/"],
+              "source_type": "report"
+            },
+            "acid rain": {
+              "difficulty": 6,
+              "learning_time": "medium",
+              "prerequisites": ["air pollution"],
+              "related_concepts": [],
+              "learning_style": "logical",
+              "concept_category": "atmospheric phenomenon",
+              "concept_properties": ["acidic precipitation", "sulfur and nitrogen oxides", "effects on ecosystems"],
+              "concept_applications": ["understanding environmental impacts", "developing pollution control"],
+              "concept_misconceptions": ["acid rain only affects forests"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["define acid rain", "explain its causes and effects"],
+              "prior_knowledge_assumptions": ["air pollution"],
+              "question_type": ["definition", "explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://www.epa.gov/acidrain"],
+              "source_type": "website"
+            },
+            "sustainable chemistry": {
+              "difficulty": 7,
+              "learning_time": "medium",
+              "prerequisites": [],
+              "related_concepts": [],
+              "learning_style": "logical",
+              "concept_category": "practice",
+              "concept_properties": ["reducing environmental impact", "green chemistry principles", "renewable resources"],
+              "concept_applications": ["developing eco-friendly products", "reducing waste"],
+              "concept_misconceptions": ["sustainable chemistry is too expensive"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["define sustainable chemistry", "explain its importance"],
+              "prior_knowledge_assumptions": ["basic environmental awareness"],
+              "question_type": ["definition", "explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://www.acs.org/content/acs/en/greenchemistry.html"],
+              "source_type": "website"
+            }
+          },
+          "questions": [
+            {
+              "template": "Define and explain the causes and effects of [concept].",
+              "concepts": ["air pollution", "water pollution", "acid rain"],
+              "syntax_variation": "simple",
+              "question_type": ["definition", "explanation"]
+            },
+            {
+              "template": "What are the impacts of [concept] on the environment?",
+              "concepts": ["greenhouse gases"],
+              "syntax_variation": "simple",
+              "question_type": ["explanation"]
+            },
+            {
+              "template": "Explain the principles of [concept] and its importance.",
+              "concepts": ["sustainable chemistry"],
+              "syntax_variation": "simple",
+              "question_type": ["explanation"]
+            },
+            {
+              "template": "How does [concept] contribute to climate change?",
+              "concepts": ["greenhouse gases"],
+              "syntax_variation": "medium",
+              "question_type": ["explanation"]
+            },
+            {
+              "template": "What are the strategies to mitigate [concept]?",
+              "concepts": ["air pollution", "water pollution", "acid rain"],
+              "syntax_variation": "medium",
+              "question_type": ["explanation"]
+            }
+          ],
+          "answers": {
+            "air pollution": ["Air pollution is the presence of harmful gases and particles in the atmosphere, causing respiratory problems and environmental damage."],
+            "water pollution": ["Water pollution is the contamination of water bodies with harmful substances, affecting aquatic life and human health."],
+            "greenhouse gases": ["Greenhouse gases trap heat in the atmosphere, contributing to global warming and climate change."],
+            "acid rain": ["Acid rain is acidic precipitation caused by sulfur and nitrogen oxides, damaging ecosystems and infrastructure."],
+            "sustainable chemistry": ["Sustainable chemistry aims to reduce the environmental impact of chemical products and processes through green chemistry principles."]
+          }
+        },
+        "materials chemistry": {
+          "concepts": {
+            "semiconductors": {
+              "difficulty": 7,
+              "learning_time": "medium",
+              "prerequisites": ["solid-state chemistry"],
+              "related_concepts": ["doping", "band theory"],
+              "learning_style": "logical",
+              "concept_category": "material",
+              "concept_properties": ["conductivity between conductors and insulators", "band gaps", "temperature dependence"],
+              "concept_applications": ["electronics", "solar cells"],
+              "concept_misconceptions": ["semiconductors are perfect insulators"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["describe semiconductors", "explain their properties"],
+              "prior_knowledge_assumptions": ["solid-state chemistry"],
+              "question_type": ["definition", "explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://www.khanacademy.org/science/electrical-engineering/solid-state-electronics/band-theory/a/semiconductors"],
+              "source_type": "website"
+            },
+            "polymers": {
+              "difficulty": 6,
+              "learning_time": "medium",
+              "prerequisites": ["polymer chemistry"],
+              "related_concepts": ["thermoplastics", "thermosets"],
+              "learning_style": "logical",
+              "concept_category": "material",
+              "concept_properties": ["long-chain molecules", "mechanical properties", "thermal properties"],
+              "concept_applications": ["plastics", "fibers", "composites"],
+              "concept_misconceptions": ["all polymers are plastics"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["describe polymers", "explain their properties and applications"],
+              "prior_knowledge_assumptions": ["polymer chemistry"],
+              "question_type": ["definition", "explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_(Petrucci_et_al.)/27%3A_Synthetic_and_Natural_Polymers/27.02%3A_Properties_of_Polymers"],
+              "source_type": "textbook"
+            },
+            "ceramics": {
+              "difficulty": 6,
+              "learning_time": "medium",
+              "prerequisites": ["solid-state chemistry"],
+              "related_concepts": ["sintering", "crystal structure"],
+              "learning_style": "logical",
+              "concept_category": "material",
+              "concept_properties": ["inorganic, non-metallic materials", "high temperature resistance", "brittleness"],
+              "concept_applications": ["tiles", "refractories", "electronics"],
+              "concept_misconceptions": ["ceramics are only used for pottery"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["describe ceramics", "explain their properties and applications"],
+              "prior_knowledge_assumptions": ["solid-state chemistry"],
+              "question_type": ["definition", "explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://www.britannica.com/technology/ceramic"],
+              "source_type": "encyclopedia"
+            },
+            "composites": {
+              "difficulty": 7,
+              "learning_time": "medium",
+              "prerequisites": [],
+              "related_concepts": ["reinforcement", "matrix materials"],
+              "learning_style": "logical",
+              "concept_category": "material",
+              "concept_properties": ["combination of two or more materials", "enhanced properties", "matrix and reinforcement"],
+              "concept_applications": ["aerospace", "automotive", "construction"],
+              "concept_misconceptions": ["composites are always synthetic"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["describe composites", "explain their properties and applications"],
+              "prior_knowledge_assumptions": ["basic material science"],
+              "question_type": ["definition", "explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://www.sciencedirect.com/topics/engineering/composite-material"],
+              "source_type": "journal article",
+            "nanomaterials": {
+              "difficulty": 8,
+              "learning_time": "medium",
+              "prerequisites": ["solid-state chemistry"],
+              "related_concepts": ["quantum dots", "carbon nanotubes"],
+              "learning_style": "logical",
+              "concept_category": "material",
+              "concept_properties": ["materials with nanoscale dimensions", "unique properties", "high surface area"],
+              "concept_applications": ["electronics", "medicine", "catalysis"],
+              "concept_misconceptions": ["nanomaterials are always toxic"],
+              "cognitive_load": "medium",
+              "learning_objectives": ["describe nanomaterials", "explain their properties and applications"],
+              "prior_knowledge_assumptions": ["solid-state chemistry"],
+              "question_type": ["definition", "explanation"],
+              "answer_length": "medium",
+              "answer_format": "paragraph",
+              "answer_examples": [],
+              "source_citation": ["https://www.nature.com/subjects/nanomaterials"],
+              "source_type": "journal article"
+            }
+          },
+          "questions": [
+            {
+              "template": "Describe the properties and applications of [concept].",
+              "concepts": ["semiconductors", "polymers", "ceramics", "composites", "nanomaterials"],
+              "syntax_variation": "simple",
+              "question_type": ["explanation"]
+            },
+            {
+              "template": "Explain the significance of [concept] in modern technology.",
+              "concepts": ["semiconductors", "composites", "nanomaterials"],
+              "syntax_variation": "medium",
+              "question_type": ["explanation"]
+            },
+            {
+              "template": "What are the key characteristics of [concept]?",
+              "concepts": ["polymers", "ceramics"],
+              "syntax_variation": "simple",
+              "question_type": ["explanation"]
+            },
+            {
+              "template": "How are [concept] used in various industries?",
+              "concepts": ["polymers", "ceramics", "composites"],
+              "syntax_variation": "medium",
+              "question_type": ["application"]
+            },
+            {
+              "template": "Explain the unique properties of [concept] and their impact.",
+              "concepts": ["nanomaterials"],
+              "syntax_variation": "medium",
+              "question_type": ["explanation"]
+            }
+          ],
+          "answers": {
+            "semiconductors": ["Semiconductors are materials with conductivity between conductors and insulators, crucial for electronic devices."],
+            "polymers": ["Polymers are long-chain molecules used in plastics, fibers, and composites due to their versatile properties."],
+            "ceramics": ["Ceramics are inorganic, non-metallic materials with high temperature resistance, used in tiles, refractories, and electronics."],
+            "composites": ["Composites are materials made from two or more components, offering enhanced properties for various applications."],
+            "nanomaterials": ["Nanomaterials are materials with nanoscale dimensions, exhibiting unique properties for electronics, medicine, and catalysis."]
+          }
+        }
+      }
+    }
+    
